@@ -1,0 +1,25 @@
+{
+  "name": "LFML_AVISO",
+  "type": "profile",
+  "updatedAt": "2025-02-15T14:42:28.565Z",
+  "map": {
+    "center": {
+      "x": 260028.63819571948,
+      "y": 6228152.318540027
+    },
+    "windowArea": {
+      "minX": 251029.68187948203,
+      "minY": 6223406.994437636,
+      "maxX": 269027.5945119569,
+      "maxY": 6232900.297449561
+    },
+    "zoom": 7,
+    "orientation": 0,
+    "items": [
+      {
+        "showLabel": false,
+        "uuid": "region-lfml-aviso"
+      }
+    ]
+  }
+}

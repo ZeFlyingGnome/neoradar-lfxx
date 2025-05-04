@@ -1,0 +1,265 @@
+{
+  "name": "LFLL",
+  "type": "profile",
+  "updatedAt": "2025-03-29T20:06:54.332Z",
+  "radarData": {
+    "gndFilterStatus": false,
+    "primFilterStatus": true,
+    "vfrFilterStatus": true,
+    "upperFilterValue": 245,
+    "speedVector": {
+      "value": 0,
+      "type": "MIN"
+    },
+    "transitionAltitude": 5000
+  },
+  "atmSystem": "CoFranceApp",
+  "map": {
+    "center": {
+      "x": 584638.4061917772,
+      "y": -5743027.204841649
+    },
+    "zoom": 0.004387273722739428,
+    "orientation": 0,
+    "windowArea": {
+      "minX": 412321.8269727465,
+      "minY": 5834199.998079232,
+      "maxX": 756954.9854108078,
+      "maxY": 5651854.411604067
+    },
+    "items": [
+      {
+        "showLabel": false,
+        "uuid": "geo-lfxx-coastline"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfll-aviso"
+      },
+      {
+        "showLabel": false,
+        "uuid": "label-lfll-amsr"
+      },
+      {
+        "showLabel": false,
+        "uuid": "label-lfll-gates"
+      },
+      {
+        "showLabel": false,
+        "uuid": "label-lfll-points-vfr"
+      },
+      {
+        "showLabel": false,
+        "uuid": "label-lfll-taxiways"
+      },
+      {
+        "showLabel": false,
+        "uuid": "runway-lfll-17l-35r"
+      },
+      {
+        "showLabel": false,
+        "uuid": "runway-lfll-17r-35l"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfll-groundlayout-aviso"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-low-tower-ctr-lfll-ctr-saint-exupery"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-tma-lfll-aixm-import"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lfll-rnp35r-arbon3n"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lfll-rnp35r-gomet3n"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lfll-rnp35r-riptu3n"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lfll-rnp35r-talar3n"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-negpu"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-ll504"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-ll505"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-talar"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-riptu"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-gomet"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-arbon"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lfll-ils35r"
+      },
+      {
+        "showLabel": false,
+        "uuid": "airport-lsgg"
+      },
+      {
+        "showLabel": false,
+        "uuid": "runway-lsgg-04-22"
+      },
+      {
+        "showLabel": false,
+        "uuid": "runway-lflb-18-36"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-low-tower-ctr-lflb-ctr-1-chambery"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-tma-lflb-tma-1-chambery"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-tma-lflb-tma-2-chambery"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-tma-lflb-tma-3-chambery"
+      },
+      {
+        "showLabel": false,
+        "uuid": "label-lflb-amsr"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-holding-lflb-osrim-r-239-0-7100-11000"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-holding-lflb-piruv-r-97-0-6500-9000"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lflb-star-all-amvar3p"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lflb-star-all-fedzi3p"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lflb-star-all-ltp3a"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lflb-star-all-mebak3p"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lflb-star-all-murro3p"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lflb-star-all-pined3p"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lflb-star-all-romam3p"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lflb-star-all-salev3p"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lflb-star-all-salev3q"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-piruv"
+      },
+      {
+        "showLabel": false,
+        "uuid": "runway-lfmh-17-35"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-low-tower-ctr-lfmh-ctr-saint-etienne-boutheon"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lfmh-rnp35"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lfmh-rnp35-banus"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lfmh-rnp35-malat"
+      },
+      {
+        "showLabel": false,
+        "uuid": "star-lfmh-rnp35-naket"
+      },
+      {
+        "showLabel": false,
+        "uuid": "label-lfmh-points-vfr"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-imh35"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-banus"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-malat"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-naket"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-mebak"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-etrek"
+      }
+    ]
+  },
+  "filePath": "/Users/pierre/Documents/NeoRadar/profiles/lfxx/LFLL.stp",
+  "lastModified": 1743356639867,
+  "folderTree": [],
+  "_saveMetadata": {
+    "operationId": "save-1743356651202-78",
+    "source": "client",
+    "timestamp": 1743356651202
+  }
+}

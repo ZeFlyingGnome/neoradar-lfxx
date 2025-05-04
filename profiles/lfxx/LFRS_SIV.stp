@@ -1,0 +1,66 @@
+{
+  "name": "LFRS_SIV",
+  "map": {
+    "center": {
+      "x": -166172.63042783557,
+      "y": -5948144.243844962
+    },
+    "zoom": 0.003031168068021029,
+    "orientation": 0,
+    "windowArea": {
+      "minX": -415581.4335805993,
+      "minY": 6080106.573555419,
+      "maxX": 83236.17272492818,
+      "maxY": 5816181.914134505
+    },
+    "orientation": 0,
+    "items": [
+      {
+        "uuid": "geo-lfxx-coastline",
+        "showLabel": false
+      },
+      {
+        "uuid": "artcc-tma-lfrs-tma-1-1-nantes",
+        "showLabel": false
+      },
+      {
+        "uuid": "artcc-tma-lfrs-tma-1-2-nantes",
+        "showLabel": false
+      },
+      {
+        "uuid": "artcc-tma-lfrs-tma-2-nantes",
+        "showLabel": false
+      },
+      {
+        "uuid": "artcc-tma-lfrs-tma-3-nantes",
+        "showLabel": false
+      },
+      {
+        "uuid": "artcc-tma-lfrs-tma-4-nantes",
+        "showLabel": false
+      },
+      {
+        "uuid": "artcc-low-tower-ctr-lfrs-ctr-1-nantes",
+        "showLabel": false
+      },
+      {
+        "uuid": "artcc-low-tower-ctr-lfrs-ctr-2-nantes",
+        "showLabel": false
+      }
+    ]
+  },
+  "type": "profile",
+  "atmSystem": "CoFranceApp",
+  "updatedAt": "2025-03-28T20:39:09.036Z",
+  "radarData": {
+    "gndFilterStatus": false,
+    "primFilterStatus": true,
+    "vfrFilterStatus": true,
+    "upperFilterValue": 245,
+    "speedVector": {
+      "value": 0,
+      "type": "NM"
+    },
+    "transitionAltitude": 5000
+  }
+}

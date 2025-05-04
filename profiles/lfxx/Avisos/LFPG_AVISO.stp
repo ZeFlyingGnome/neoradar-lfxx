@@ -1,0 +1,74 @@
+{
+  "name": "LFPG_AVISO",
+  "type": "profile",
+  "updatedAt": "2025-02-15T14:42:28.578Z",
+  "map": {
+    "center": {
+      "x": 287753.4438034795,
+      "y": -6275526.932151107
+    },
+    "zoom": 0.22280726471786608,
+    "orientation": 0,
+    "windowArea": {
+      "minX": 283675.9286418872,
+      "minY": 6277874.252381721,
+      "maxX": 291830.9589650717,
+      "maxY": 6273179.611920493
+    },
+    "items": [
+      {
+        "showLabel": false,
+        "uuid": "geo-lfpg-centerlines-08r"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfpg-centerlines-09l"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfpg-centerlines-26l"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfpg-centerlines-27r"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfpg-groundlayout-aviso"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfpg-aviso"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfpg-zzclosed-taxiways-20"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfpo-aviso"
+      }
+    ]
+  },
+  "filePath": "C:\\Users\\pierr\\Documents\\NeoRadar\\profiles\\lfxx\\Avisos\\LFPG_AVISO.stp",
+  "lastModified": 1746375007090,
+  "folderTree": [
+    "Avisos"
+  ],
+  "groupLabel": "Avisos",
+  "radarData": {
+    "transitionAltitude": 10000,
+    "speedVector": {
+      "type": "NM",
+      "value": 0
+    },
+    "primFilterStatus": true,
+    "gndFilterStatus": true,
+    "upperFilterValue": 65
+  },
+  "_saveMetadata": {
+    "operationId": "save-1746375165264-17",
+    "source": "client",
+    "timestamp": 1746375165264
+  }
+}

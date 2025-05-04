@@ -1,0 +1,976 @@
+{
+  "name": "1_CTR",
+  "type": "profile",
+  "updatedAt": "2025-02-15T14:42:28.508Z",
+  "map": {
+    "center": {
+      "x": 404930.09030033834,
+      "y": -6195771.035845592
+    },
+    "zoom": 0.0008871808625375713,
+    "orientation": 0,
+    "windowArea": {
+      "minX": -619100.1140950206,
+      "minY": 6785278.7924760515,
+      "maxX": 1428960.2946956973,
+      "maxY": 5606263.279215132
+    },
+    "items": [
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-aor-ctr-lfff-release-lines"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-aor-ctr-lfff-secteurs-adjacents-ff"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-fir-border-lfbb-lfbb-h-uir"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-fir-border-lfbb-lfbb-l-uir"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-fir-border-lfbb-lfbb-l-uir1"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-fir-border-lfee-lfee-fir"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-fir-border-lfff-lfff-fir"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-fir-border-lfmm-lfmm-fir"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-fir-border-lfmm-lfmm-h-uir"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-fir-border-lfrr-lfrr-fir"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-fir-border-lfrr-lfrr-h-uir"
+      },
+      {
+        "showLabel": false,
+        "uuid": "artcc-high-release-line-lfee-blm"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-abnur"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-abrix"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-adabi"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-aduto"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-akiki"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-akito"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-aleso"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-aneto"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-anglo"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-annet"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-arvid"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-arvol"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-atlen"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-bakup"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-balan"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-balda"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-bames"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-bamev"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-begar"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-beguy"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-belen"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-belob"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-bokno"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-bolro"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-bunav"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-cambo"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-delog"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-delom"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-dikro"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-eraki"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-etiki"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-garmi"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-geant"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-girom"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-givor"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-ibera"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-kanig"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-kesax"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-korul"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-kotem"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-kudin"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-kukor"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-kunav"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lapex"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-latek"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lelna"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lipni"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lizad"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lotee"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lugis"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lupen"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lusar"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lusem"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lutax"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-maneg"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-medil"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-mokip"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-mopil"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-mosis"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-motox"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-nancy"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-natpi"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-nenem"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-netuk"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-nevil"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-nilem"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-odrep"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-ogagi"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-oloxo"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-orist"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-perdu"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-pevit"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-pibat"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-pikod"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-pipor"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-podem"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-popul"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-pumal"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-reghi"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-remgo"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-resmi"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-rivak"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-robal"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-rousy"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-rutip"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-salco"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-sepal"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-sitet"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-sivir"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-sopil"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-sosun"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-sovat"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-subip"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-tivli"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-tivlu"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-tolvu"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-toptu"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-tudra"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-tulta"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-tupov"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-umler"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-umoxa"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-uruna"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-vekin"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-vesan"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-xamab"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-xavap"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-xidil"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfee-landmark-coastlines"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfff-landmark-coastlines"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfmm-landmark-coastlines"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfrr-landmark-coastlines"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-t9"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ul10"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ul127"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ul128"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ul15"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ul47"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ul55"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ul612"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ul613"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um129"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um163"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um164"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um184"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um189"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um2"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um25"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um30"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um601"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um603"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um605"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um606"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um616"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um624"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um728"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um731"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um733"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um871"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um976"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-um985"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un26"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un460"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un470"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un480"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un482"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un490"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un491"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un502"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un536"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un734"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un736"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un741"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un850"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un851"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un852"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un853"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un855"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un856"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un857"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un858"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un859"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un860"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un861"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un862"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un863"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un864"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un867"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un869"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un871"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un872"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un873"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-un874"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-up181"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-up620"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uq220"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ut158"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ut183"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ut250"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ut27"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ut407"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ut421"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-ut507"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uy22"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uy25"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uy30"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uy31"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uz12"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uz173"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uz24"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uz273"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uz296"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uz343"
+      },
+      {
+        "showLabel": false,
+        "uuid": "high-airway-uz924"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfff-edg-040"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-agn"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-amb"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-ang"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-are"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-avn"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-blm"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-cam"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-cna"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-evx"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-fjr"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-fjr"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-gai"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-gtq"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-jsy"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-lgl"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-lmg"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-lse"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-ltp"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-men"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-mou"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-mtl"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-nts"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-pon"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-qpr"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-ren"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-sau"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-stp"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-tou"
+      }
+    ]
+  },
+  "filePath": "C:\\Users\\pierr\\Documents\\NeoRadar\\profiles\\lfxx\\1_CTR.stp",
+  "lastModified": 1746375007082,
+  "folderTree": [],
+  "radarData": {
+    "transitionAltitude": 10000,
+    "speedVector": {
+      "type": "NM",
+      "value": 0
+    }
+  },
+  "_saveMetadata": {
+    "operationId": "save-1746375019125-5",
+    "source": "client",
+    "timestamp": 1746375019125
+  }
+}

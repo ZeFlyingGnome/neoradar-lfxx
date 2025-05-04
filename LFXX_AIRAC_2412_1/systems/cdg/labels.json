@@ -1,0 +1,621 @@
+{
+  "$schema": "https://raw.githubusercontent.com/neoradar-project/schemas/refs/heads/main/systems/labels.schema.json",
+  "ground": {
+    "default": [
+      [
+        {
+          "itemName": "callsign",
+          "prefix": ["=assumedPrefix"],
+          "fontWeight": "bold",
+          "fontSize": 12
+        },
+        {
+          "itemName": "squawk",
+          "prefix": "@"
+        }
+      ]
+    ],
+    "departure": [
+      [
+        {
+          "itemName": "callsign",
+          "prefix": ["=assumedPrefix"],
+
+          "fontWeight": "bold",
+          "fontSize": 12
+        },
+        {
+          "itemName": "text",
+          "value": "=penWhenScratchpadNotEmpty",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        },
+        {
+          "itemName": "acShortType",
+          "placeholder": "ATYP"
+        }
+      ],
+      [
+        {
+          "itemName": "text",
+          "placeholder": "RWY",
+          "value": ["=suggestedDepRunwayIfNoAssigned", "&depRunway"]
+        },
+        {
+          "itemName": "text",
+          "placeholder": "SID",
+          "value": ["=suggestedSidIfNoAssigned", "&sid"]
+        }
+      ]
+    ],
+    "arrival": [
+      [
+        {
+          "itemName": "callsign",
+          "prefix": ["=assumedPrefix"],
+          "fontWeight": "bold",
+          "fontSize": 12
+        },
+        {
+          "itemName": "acShortType",
+          "placeholder": "ATYP"
+        }
+      ],
+      [
+        {
+          "itemName": "scratchpad"
+        }
+      ]
+    ],
+    "detailed": [
+      [
+        {
+          "itemName": "callsign",
+          "fontWeight": "bold",
+          "leftClick": "callsignMenu",
+          "prefix": ["=assumedPrefix"],
+          "fontSize": 12
+
+        },
+        {
+          "itemName": "squawk",
+          "prefix": "@"
+        }
+      ]
+    ],
+    "departureDetailed": [
+      [
+        {
+          "itemName": "callsign",
+          "fontWeight": "bold",
+          "fontSize": 12,
+          "leftClick": "callsignMenu",
+          "prefix": ["=assumedPrefix"]
+        },
+        {
+          "itemName": "acShortType",
+          "placeholder": "ATYP",
+          "leftClick": "fpDialog"
+        }
+      ],
+      [
+        {
+          "itemName": "text",
+          "placeholder": "RWY",
+          "value": ["=suggestedDepRunwayIfNoAssigned", "&depRunway"],
+          "leftClick": "depRunwayMenu"
+        },
+        {
+          "itemName": "text",
+          "placeholder": "SID",
+          "value": ["=suggestedSidIfNoAssigned", "&sid"],
+          "leftClick": "sidMenu"
+        }
+      ],
+      [
+        {
+          "itemName": "scratchpad",
+          "leftClick": "triggerScratchpad",
+          "placeholder": "..."
+        }
+      ]
+    ],
+    "arrivalDetailed": [
+      [
+        {
+          "itemName": "callsign",
+          "fontWeight": "bold",
+          "fontSize": 12,
+          "leftClick": "callsignMenu",
+          "prefix": ["=assumedPrefix"]
+        },
+        {
+          "itemName": "acShortType",
+          "placeholder": "ATYP",
+          "leftClick": "fpDialog"
+        }
+      ],
+      [
+        {
+          "itemName": "scratchpad",
+          "placeholder": "...",
+          "leftClick": "triggerScratchpad"
+        }
+      ]
+    ],
+    "styleVariants": [
+      {
+        "applyWhen": "$isOutboundTransfer",
+        "backgroundColor": [34, 117, 78],
+        "textColor": [255, 255, 255],
+        "fontSize": 11,
+        "tagContainerPaddingBottom": 1,
+        "tagContainerPaddingTop": 1,
+        "tagContainerPaddingLeft": 1,
+        "tagContainerPaddingRight": 1,
+        "detailedTagContainerPaddingBottom": 1,
+        "detailedTagContainerPaddingTop": 1,
+        "detailedTagContainerPaddingLeft": 1,
+        "detailedTagContainerPaddingRight": 1
+      },
+      {
+        "applyWhen": "$isInboundTransfer",
+        "backgroundColor": [50, 170, 104],
+        "textColor": [255, 255, 255],
+        "fontSize": 11,
+        "tagContainerPaddingBottom": 1,
+        "tagContainerPaddingTop": 1,
+        "tagContainerPaddingLeft": 1,
+        "tagContainerPaddingRight": 1,
+        "detailedTagContainerPaddingBottom": 1,
+        "detailedTagContainerPaddingTop": 1,
+        "detailedTagContainerPaddingLeft": 1,
+        "detailedTagContainerPaddingRight": 1
+      },
+      {
+        "applyToIsDeparture": true,
+        "backgroundColor": [40, 50, 200],
+        "textColor": [255, 255, 255],
+        "fontSize": 11,
+        "tagContainerPaddingBottom": 1,
+        "tagContainerPaddingTop": 1,
+        "tagContainerPaddingLeft": 1,
+        "tagContainerPaddingRight": 1,
+        "detailedTagContainerPaddingBottom": 1,
+        "detailedTagContainerPaddingTop": 1,
+        "detailedTagContainerPaddingLeft": 1,
+        "detailedTagContainerPaddingRight": 1
+      },
+      {
+        "applyToIsArrival": true,
+        "backgroundColor": [170, 50, 50],
+        "textColor": [255, 255, 255],
+        "fontSize": 11,
+        "tagContainerPaddingBottom": 1,
+        "tagContainerPaddingTop": 1,
+        "tagContainerPaddingLeft": 1,
+        "tagContainerPaddingRight": 1,
+        "detailedTagContainerPaddingBottom": 1,
+        "detailedTagContainerPaddingTop": 1,
+        "detailedTagContainerPaddingLeft": 1,
+        "detailedTagContainerPaddingRight": 1
+      },
+      {
+        "applyToIsDeparture": true,
+        "backgroundColor": [40, 50, 200],
+        "textColor": [255, 255, 255],
+        "fontSize": 11,
+        "tagContainerPaddingBottom": 1,
+        "tagContainerPaddingTop": 1,
+        "tagContainerPaddingLeft": 1,
+        "tagContainerPaddingRight": 1,
+        "detailedTagContainerPaddingBottom": 1,
+        "detailedTagContainerPaddingTop": 1,
+        "detailedTagContainerPaddingLeft": 1,
+        "detailedTagContainerPaddingRight": 1
+      },
+      {
+        "backgroundColor": [48, 48, 48],
+        "textColor": [255, 255, 255],
+        "fontSize": 11,
+        "tagContainerPaddingBottom": 1,
+        "tagContainerPaddingTop": 1,
+        "tagContainerPaddingLeft": 1,
+        "tagContainerPaddingRight": 1,
+        "detailedTagContainerPaddingBottom": 1,
+        "detailedTagContainerPaddingTop": 1,
+        "detailedTagContainerPaddingLeft": 1,
+        "detailedTagContainerPaddingRight": 1
+      }
+    ]
+  },
+  "airborne": {
+    "unconcerned": [
+      [
+        {
+          "itemName": "groundSpeed",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 2]
+        },
+        {
+          "itemName": "text",
+          "value": "=penWhenScratchpadNotEmpty",
+          "color": "=blueColorScratchpadNotEmpty"
+        }
+      ],
+      [
+        {
+          "itemName": "callsign"
+        }
+      ],
+      [
+        {
+          "itemName": "computedAltitude",
+          "prefix": ["=altitudeBelowTAPrefix"],
+          "truncate": ["=altitudeBelowTATruncate", "=altitudeAboveTATruncate"],
+          "padWithZeroLeft": 5
+        },
+        {
+          "itemName": "verticalTrend",
+          "placeholder": ":u\u0014",
+          "mapping": {
+            "1": ":u\u0016",
+            "0": ":u\u0014",
+            "-1": ":u\u0015"
+          }
+        },
+        {
+          "itemName": "icaoWakeCategory",
+          "placeholder": "Z"
+        }
+      ]
+    ],
+    "concerned": [
+      [
+        {
+          "itemName": "groundSpeed",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 2]
+        },
+        {
+          "itemName": "assignedMach",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 3],
+          "prefix": "m"
+        },
+        {
+          "itemName": "computedSpeed",
+          "prefix": "k"
+        },
+        {
+          "itemName": "text",
+          "value": "=penWhenScratchpadNotEmpty",
+          "color": "=blueColorScratchpadNotEmpty"
+        }
+      ],
+      [
+        {
+          "itemName": "callsign",
+          "leftClick": "callsignMenu"
+        },
+        {
+          "itemName": "sid",
+          "truncate": [0, 3],
+          "color": [29,118,226]
+        }
+      ],
+      [
+        {
+          "itemName": "computedAltitude",
+          "prefix": ["=altitudeBelowTAPrefix"],
+          "truncate": ["=altitudeBelowTATruncate", "=altitudeAboveTATruncate"],
+          "padWithZeroLeft": 5
+        },
+        {
+          "itemName": "verticalTrend",
+          "placeholder": ":u\u0014",
+          "mapping": {
+            "1": ":u\u0016",
+            "0": ":u\u0014",
+            "-1": ":u\u0015"
+          }
+        },
+        {
+          "itemName": "icaoWakeCategory",
+          "placeholder": "Z"
+        },
+        {
+          "itemName": "clearedFlightLevel",
+          "padWithZeroLeft": 5,
+          "truncate": [0, 2],
+          "mapping": {
+            "1": "CA",
+            "2": "VA"
+          }
+        },
+        {
+          "itemName": "assignedDirect",
+          "leftClick": "triggerScratchpad"
+        },
+        {
+          "itemName": "assignedHeading",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 3],
+          "prefix": "h"
+        }
+      ]
+    ],
+    "detailed": [
+      [
+        {
+          "itemName": "groundSpeed",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 2]
+        },
+        {
+          "itemName": "assignedMach",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 3],
+          "prefix": "m",
+          "leftClick": "spd",
+          "rightClick": "clearSpd"
+        },
+        {
+          "itemName": "computedSpeed",
+          "prefix": "k",
+          "placeholder": "k..",
+          "leftClick": "spd",
+          "rightClick": "clearSpd"
+        },
+        {
+          "itemName": "scratchpad",
+          "placeholder": ":i\ue4f4",
+          "color": "=blueColorScratchpadNotEmpty",
+          "leftClick": "triggerScratchpad"
+        },
+        {
+          "itemName": "verticalSpeed",
+          "padWithZeroLeft": 4,
+          "truncate": [0, 3],
+          "showPlusMinus": true
+        },
+        {
+          "itemName": "acShortType"
+        }
+      ],
+      [
+        {
+          "itemName": "callsign",
+          "leftClick": "callsignMenu"
+        },
+        {
+          "itemName": "ownedByID",
+          "placeholder": "---"
+        },
+        {
+          "itemName": "plannedFlightLevel",
+          "padWithZeroLeft": 5,
+          "truncate": [0, 2],
+          "placeholder": "TaFL",
+          "leftClick": "pfl"
+        }
+      ],
+      [
+        {
+          "itemName": "computedAltitude",
+          "prefix": ["=altitudeBelowTAPrefix"],
+          "truncate": ["=altitudeBelowTATruncate", "=altitudeAboveTATruncate"],
+          "padWithZeroLeft": 5,
+          "leftClick": "routeDraw"
+        },
+        {
+          "itemName": "verticalTrend",
+          "placeholder": ":u\u0014",
+          "mapping": {
+            "1": ":u\u0016",
+            "0": ":u\u0014",
+            "-1": ":u\u0015"
+          }
+        },
+        {
+          "itemName": "icaoWakeCategory",
+          "placeholder": "Z"
+        },
+        {
+          "itemName": "clearedFlightLevel",
+          "padWithZeroLeft": 5,
+          "truncate": [0, 2],
+          "mapping": {
+            "1": "CA",
+            "2": "VA"
+          },
+          "placeholder": "cfl",
+          "leftClick": "cfl"
+        },
+        {
+          "itemName": "assignedDirect",
+          "leftClick": "directMenu",
+          "rightClick": "triggerScratchpad"
+        },
+        {
+          "itemName": "assignedHeading",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 3],
+          "placeholder": "h...",
+          "prefix": "h",
+          "leftClick": "hdg",
+          "rightClick": "directMenu"
+        }
+      ],
+      [
+        {
+          "itemName": "reportedHeading",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 3],
+          "placeholder": "@h...",
+          "prefix": "@h"
+        },
+        {
+          "itemName": "origin",
+          "placeholder": "ORIG",
+          "leftClick": "fpDialog"
+        },
+        {
+          "itemName": "destination",
+          "placeholder": "DEST",
+          "leftClick": "fpDialog"
+        }
+      ]
+    ],
+    "styleVariants": [
+      {
+        "description": "issy helico",
+        "applyWhen": ["==", "squawk", "4217"],
+        "textColor": [155, 155, 137],
+        "textColorForState": {
+          "kAssumed": [238, 238, 211],
+          "kIncomingTransfer": [190, 225, 191]
+        },
+        "detailedBackgroundColor": [20, 20, 20],
+        "detailedBackgroundColorOpacity": 0.8,
+        "detailedRoundedCorners": 4,
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      },
+      {
+        "description": "lfpg lfpb dep",
+        "applyWhen": "$isCDGOrPBDeparture",
+        "textColor": [128, 165, 165],
+        "textColorForState": {
+          "kAssumed": [197, 253, 254],
+          "kIncomingTransfer": [190, 225, 191]
+        },
+        "detailedBackgroundColor": [20, 20, 20],
+        "detailedBackgroundColorOpacity": 0.8,
+        "detailedRoundedCorners": 4,
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      },
+      {
+        "description": "orly group arrival",
+        "applyWhen": "$isOrlyGroupArrival",
+        "textColor": [160, 131, 96],
+        "textColorForState": {
+          "kAssumed": [246, 201, 147],
+          "kIncomingTransfer": [190, 225, 191]
+        },
+        "detailedBackgroundColor": [20, 20, 20],
+        "detailedBackgroundColorOpacity": 0.8,
+        "detailedRoundedCorners": 4,
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      },
+      {
+        "description": "lfpg south arrival",
+        "applyWhen": "$isLFPGSouthArrival",
+        "textColor": [158, 117, 116],
+        "textColorForState": {
+          "kAssumed": [243, 179, 178],
+          "kIncomingTransfer": [190, 225, 191]
+        },
+        "detailedBackgroundColor": [20, 20, 20],
+        "detailedBackgroundColorOpacity": 0.8,
+        "detailedRoundedCorners": 4,
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      },
+      {
+        "description": "lfpg north arrival",
+        "applyWhen": "$isLFPGNorthArrival",
+        "textColor": [161, 136, 147],
+        "textColorForState": {
+          "kAssumed": [247, 209, 227],
+          "kIncomingTransfer": [190, 225, 191]
+        },
+        "detailedBackgroundColor": [20, 20, 20],
+        "detailedBackgroundColorOpacity": 0.8,
+        "detailedRoundedCorners": 4,
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      },
+      {
+        "description": "lfpb arrival",
+        "applyWhen": ["==", "destination", "LFPB"],
+        "textColor": [147, 111, 164],
+        "textColorForState": {
+          "kAssumed": [227, 171, 250],
+          "kIncomingTransfer": [190, 225, 191]
+        },
+        "detailedBackgroundColor": [20, 20, 20],
+        "detailedBackgroundColorOpacity": 0.8,
+        "detailedRoundedCorners": 4,
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      },
+      {
+        "description": "other departures",
+        "applyToIsDeparture": true,
+        "textColor": [91, 139, 161],
+        "textColorForState": {
+          "kAssumed": [140, 214, 246],
+          "kIncomingTransfer": [190, 225, 191]
+        },
+        "detailedBackgroundColor": [20, 20, 20],
+        "detailedBackgroundColorOpacity": 0.8,
+        "detailedRoundedCorners": 4,
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      },
+      {
+        "description": "other arrivals not assumed",
+        "applyWhen": ["OR", ["$isArr", "$isParisGroupArrival"]],
+        "textColor": [160, 131, 96],
+        "textColorForState": {
+          "kAssumed": [246, 201, 147],
+          "kIncomingTransfer": [190, 225, 191]
+        },
+        "detailedBackgroundColor": [20, 20, 20],
+        "detailedBackgroundColorOpacity": 0.8,
+        "detailedRoundedCorners": 4,
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      },
+      {
+        "description": "other assumed",
+        "applyWhen": "$isAssumed",
+        "textColor": [238, 238, 211],
+        "textColorForState": {
+          "kIncomingTransfer": [190, 225, 191]
+        },
+        "detailedBackgroundColor": [20, 20, 20],
+        "detailedBackgroundColorOpacity": 0.8,
+        "detailedRoundedCorners": 4,
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      },
+      {
+        "description": "catch all unconcerned default",
+        "textColor": [0, 0, 0],
+        "detailedBackgroundColor": [20, 20, 20],
+        "detailedBackgroundColorOpacity": 0.8,
+        "textColorForState": {
+          "kIncomingTransfer": [190, 225, 191]
+        },
+        "detailedRoundedCorners": 4,
+        "detailedTextColor": [200, 200, 200],
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      }
+    ]
+  }
+}

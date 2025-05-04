@@ -1,0 +1,218 @@
+{
+  "$schema": "https://raw.githubusercontent.com/neoradar-project/schemas/refs/heads/main/systems/targets.schema.json",
+  "groundSymbology": {
+    "default": [
+      {
+        "plotImage": "cdg_white_assumed_t3",
+        "historyTrailImages": [
+          "cdg_white_assumed_t6",
+          "cdg_white_assumed_t6",
+          "cdg_white_assumed_t6"
+        ]
+      }
+    ],
+    "departure": [
+      {
+        "plotImage": "cdg_white_assumed_t3",
+        "historyTrailImages": [
+          "cdg_white_assumed_t6",
+          "cdg_white_assumed_t6",
+          "cdg_white_assumed_t6"
+        ]
+      }
+    ],
+    "arrival": [
+      {
+        "plotImage": "cdg_white_assumed_t3",
+        "historyTrailImages": [
+          "cdg_white_assumed_t6",
+          "cdg_white_assumed_t6",
+          "cdg_white_assumed_t6"
+        ]
+      }
+    ]
+  },
+  "airborneSymbology": [
+    {
+      "description": "assumed air departure",
+      "applyWhen": [
+        "==",
+        "isMyDeparture",
+        "1"
+      ],
+      "applyToAttentionStates": [
+        "kAssumed"
+      ],
+      "plotImage": "cdg_blue_two_assumed_aircraft",
+      "historyTrailsSkipSteps": 7,
+      "historyTrailImages": [
+        "cdg_blue_two_assumed_t1",
+        "cdg_blue_two_assumed_t2",
+        "cdg_blue_two_assumed_t3",
+        "cdg_blue_two_assumed_t4",
+        "cdg_blue_two_assumed_t5",
+        "cdg_blue_two_assumed_t6"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "assumed air arrival",
+      "applyWhen": [
+        "==",
+        "isMyArrival",
+        "1"
+      ],
+      "applyToAttentionStates": [
+        "kAssumed"
+      ],
+      "plotImage": "cdg_orange_assumed_aircraft",
+      "historyTrailsSkipSteps": 7,
+      "historyTrailImages": [
+        "cdg_orange_assumed_t1",
+        "cdg_orange_assumed_t2",
+        "cdg_orange_assumed_t3",
+        "cdg_orange_assumed_t4",
+        "cdg_orange_assumed_t5",
+        "cdg_orange_assumed_t6"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "incoming transfer arrival",
+      "applyWhen": [
+        "==",
+        "isMyArrival",
+        "1"
+      ],
+      "applyToAttentionStates": [
+        "kIncomingTransfer"
+      ],
+      "plotImage": "cdg_orange_assumed_aircraft",
+      "historyTrailsSkipSteps": 7,
+      "historyTrailImages": [
+        "cdg_orange_assumed_t1",
+        "cdg_orange_assumed_t2",
+        "cdg_orange_assumed_t3",
+        "cdg_orange_assumed_t4",
+        "cdg_orange_assumed_t5",
+        "cdg_orange_assumed_t6"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "incoming transfer departure",
+      "applyWhen": [
+        "==",
+        "isMyDeparture",
+        "1"
+      ],
+      "applyToAttentionStates": [
+        "kIncomingTransfer"
+      ],
+      "plotImage": "cdg_blue_two_assumed_aircraft",
+      "historyTrailsSkipSteps": 7,
+      "historyTrailImages": [
+        "cdg_blue_two_assumed_t1",
+        "cdg_blue_two_assumed_t2",
+        "cdg_blue_two_assumed_t3",
+        "cdg_blue_two_assumed_t4",
+        "cdg_blue_two_assumed_t5",
+        "cdg_blue_two_assumed_t6"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "assumed air",
+      "applyToAttentionStates": [
+        "kAssumed"
+      ],
+      "plotImage": "4f_assumed_aircraft",
+      "historyTrailsSkipSteps": 5,
+      "historyTrailImages": [
+        "4f_assumed_t1",
+        "4f_assumed_t2",
+        "4f_assumed_t3",
+        "4f_assumed_t4",
+        "4f_assumed_t5",
+        "4f_assumed_t6",
+        "4f_assumed_t7",
+        "4f_assumed_t8"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "incoming transfer",
+      "applyToAttentionStates": [
+        "kIncomingTransfer"
+      ],
+      "plotImage": "4f_transfer_aircraft",
+      "historyTrailsSkipSteps": 5,
+      "historyTrailImages": [
+        "4f_transfer_t1",
+        "4f_transfer_t2",
+        "4f_transfer_t3",
+        "4f_transfer_t4",
+        "4f_transfer_t5",
+        "4f_transfer_t6",
+        "4f_transfer_t7",
+        "4f_transfer_t8"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "redundant",
+      "applyToAttentionStates": [
+        "kOutgoingTransfer",
+        "kIntruder"
+      ],
+      "plotImage": "4f_redundant_aircraft",
+      "historyTrailsSkipSteps": 5,
+      "historyTrailImages": [
+        "4f_redundant_t1",
+        "4f_redundant_t2",
+        "4f_redundant_t3",
+        "4f_redundant_t4",
+        "4f_redundant_t5",
+        "4f_redundant_t6",
+        "4f_redundant_t7",
+        "4f_redundant_t8"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "notified",
+      "applyToAttentionStates": [
+        "kNotified"
+      ],
+      "plotImage": "4f_notified_aircraft",
+      "historyTrailsSkipSteps": 5,
+      "historyTrailImages": [
+        "4f_notified_t1",
+        "4f_notified_t2",
+        "4f_notified_t3",
+        "4f_notified_t4",
+        "4f_notified_t5",
+        "4f_notified_t6",
+        "4f_notified_t7",
+        "4f_notified_t8"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "Unconcerned air",
+      "historyTrailsSkipSteps": 5,
+      "plotImage": "4f_unconcerned_aircraft",
+      "historyTrailImages": [
+        "4f_unconcerned_t1",
+        "4f_unconcerned_t2",
+        "4f_unconcerned_t3",
+        "4f_unconcerned_t4",
+        "4f_unconcerned_t5",
+        "4f_unconcerned_t6",
+        "4f_unconcerned_t7",
+        "4f_unconcerned_t8"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    }
+  ]
+}

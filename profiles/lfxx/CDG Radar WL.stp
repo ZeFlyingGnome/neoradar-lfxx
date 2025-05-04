@@ -1,0 +1,394 @@
+{
+  "name": "CDG Radar WL",
+  "type": "profile",
+  "updatedAt": "2025-02-15T14:42:28.611Z",
+  "radarData": {
+    "gndFilterStatus": false,
+    "primFilterStatus": false,
+    "vfrFilterStatus": true,
+    "upperFilterValue": 265,
+    "lowerFilterValue": -1000,
+    "speedVector": {
+      "value": 0,
+      "type": "MIN"
+    },
+    "transitionAltitude": 5000
+  },
+  "atmSystem": "cdg",
+  "map": {
+    "center": {
+      "x": 293915.252393811,
+      "y": -6285847.319620654
+    },
+    "zoom": 0.006659875782014052,
+    "orientation": 0,
+    "windowArea": {
+      "minX": 157501.29667807012,
+      "minY": 6364377.312839512,
+      "maxX": 430329.2081095519,
+      "maxY": 6207317.326401796
+    },
+    "items": [
+      {
+        "showLabel": false,
+        "uuid": "maps-tma-paris"
+      },
+      {
+        "showLabel": false,
+        "uuid": "maps-lfpg-trajectoires-wl"
+      },
+      {
+        "showLabel": false,
+        "uuid": "maps-lfpg-finale-ils-26l"
+      },
+      {
+        "showLabel": false,
+        "uuid": "maps-lfpg-finale-ils-27r"
+      },
+      {
+        "showLabel": false,
+        "uuid": "maps-lfpb-finale-ils-27"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-adada"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-agopa"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-alimo"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-atrex"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-banox"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-batag"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-bavol"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-baxir"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-bekos"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-bubli"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-creil"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-devim"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-dikol"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-eboma"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-edoxa"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-epuri"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-erixu"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-gilto"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-inkud"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-ipnob"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-koliv"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lalux"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-lanvi"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-nerki"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-nipor"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-nurmo"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-obobi"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-odebu"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-odilo"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-okabo"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-okasi"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-okipa"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-opale"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-pekim"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-pilul"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-piver"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-pn619"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-po183"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-ranux"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-sotip"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-urelo"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-valpo"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-vasol"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-vebek"
+      },
+      {
+        "showLabel": false,
+        "uuid": "fix-vemil"
+      },
+      {
+        "showLabel": false,
+        "uuid": "ndb-cvt"
+      },
+      {
+        "showLabel": false,
+        "uuid": "ndb-hol"
+      },
+      {
+        "showLabel": false,
+        "uuid": "ndb-vat"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfpg-vpe-departs-26"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfpg-vpe-departs-27"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfpg-vpe-ils-26l"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfpg-vpe-ils-27r"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfpo-vpe-departs-24"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfpo-vpe-ils-25"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-bov"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-bry"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-cad"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-cav"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-clm"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-ctl"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-epr"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-evx"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-lgl"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-mln"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-mtd"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-pon"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-ptv"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-rbt"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-tro"
+      },
+      {
+        "showLabel": false,
+        "uuid": "vor-tsu"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfpg-landmark-points-vfr"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfpg-tower-ctr-restriction-survol-villepinte"
+      },
+      {
+        "showLabel": false,
+        "uuid": "runway-lfob-04-22"
+      },
+      {
+        "showLabel": false,
+        "uuid": "runway-lfob-12-30"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfbo-aviso"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfbo-groundlayout-aviso"
+      },
+      {
+        "showLabel": false,
+        "uuid": "label-lfbo-gates"
+      },
+      {
+        "showLabel": false,
+        "uuid": "label-lfbo-taxiways"
+      },
+      {
+        "showLabel": true,
+        "uuid": "fix-molba"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfpo-aor-ctr-finale-ils-24-zone"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfpo-vectors-trajectoires-ei"
+      },
+      {
+        "showLabel": false,
+        "uuid": "geo-lfpo-vectors-finale-ils-25"
+      },
+      {
+        "showLabel": false,
+        "uuid": "region-lfob-aviso"
+      }
+    ]
+  },
+  "filePath": "C:\\Users\\pierr\\Documents\\NeoRadar\\profiles\\lfxx\\CDG Radar WL.stp",
+  "lastModified": 1746381892123,
+  "folderTree": [],
+  "_saveMetadata": {
+    "operationId": "save-1746381956848-4",
+    "source": "client",
+    "timestamp": 1746381956848
+  }
+}

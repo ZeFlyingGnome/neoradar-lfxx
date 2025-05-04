@@ -1,0 +1,35 @@
+{
+  "name": "Paris WL Simon",
+  "type": "profile",
+  "updatedAt": "2025-02-22T00:11:43.001Z",
+  "radarData": {
+    "speedVector": {
+      "value": 0,
+      "type": "NM"
+    },
+    "transitionAltitude": 10000
+  },
+  "atmSystem": "cdg",
+  "map": {
+    "center": {
+      "x": 847183.3480445864,
+      "y": -6195983.977450224
+    },
+    "zoom": 1,
+    "orientation": 0,
+    "items": [
+      {
+        "showLabel": false,
+        "uuid": "geo-lfxx-coastline"
+      }
+    ]
+  },
+  "filePath": "C:\\Users\\pierr\\Documents\\NeoRadar\\profiles\\lfxx\\Paris WL Simon.stp",
+  "lastModified": 1746227986475,
+  "folderTree": [],
+  "_saveMetadata": {
+    "operationId": "save-1746228035183-17",
+    "source": "client",
+    "timestamp": 1746228035183
+  }
+}
