@@ -40,9 +40,29 @@
     "colourInboundTransfer": { "value": "190,225,191", "expression": ["$isInboundTransfer"] },
     "colourOutboundTransfer": { "value": "94,175,180", "expression": ["$isOutboundTransfer"] },
 
-    "cdgBlack": { "value": "209,209,209", "expression": ["$isDep", "$airfrance"] },
-    "cdgDefaultBlueOne": { "value": "128,165,165", "expression": ["$isCDGOrPBDeparture"] },
-    "cdgDefaultBlueTwo": { "value": "91,139,116065", "expression": ["$isParisGroupDeparture"] },
+    "cdgWhiteIfInStateOfInterest": {
+      "value": "255,255,255",
+      "expression": ["$isInboundTransfer", "$isOutboundTransfer", "$isAssumed"]
+    },
+
+    "cdgNoir": { "value": "11,11,11", "expression": ["$alwaysTrue"] },
+    "cdgBlanc": { "value": "212,212,185", "expression": ["$isAssumed"] },
+    "cdgNord": { "value": "227,184,203", "expression": ["$isLFPGNorthArrival"] },
+    "cdgSud": { "value": "128,165,165", "expression": ["$isLFPGSouthArrival"] },
+    "cdgBourget": { "value": "211,150,227", "expression": ["$isBourgetArrival"] },
+    "cdgOrange": { "value": "227,177,124", "expression": ["$isOrlyArrival", "$isArr"] },
+    "cdgDepBleu": { "value": "161,227,227", "expression": ["$isCDGOrPBDeparture"] },
+    "cdgDepSat": { "value": "101,192,223", "expression": ["$isParisGroupDeparture", "$isBeauvaisDeparture", "$isDep"] },
+
+    "assumedAndcdgNord": { "value": "227,184,203", "expression": ["$assumedAndIsLFPGNorthArrival"] },
+    "assumedAndcdgSud": { "value": "128,165,165", "expression": ["$assumedAndIsLFPGSouthArrival"] },
+    "assumedAndcdgBourget": { "value": "211,150,227", "expression": ["$assumedAndIsBourgetArrival"] },
+    "assumedAndcdgOrange": { "value": "227,177,124", "expression": ["$assumedAndIsOrlyArrival", "$assumedAndIsArr"] },
+    "assumedAndcdgDepBleu": { "value": "161,227,227", "expression": ["$assumedAndIsCDGOrPBDeparture"] },
+    "assumedAndcdgDepSat": { "value": "101,192,223", "expression": ["$assumedAndisParisGroupDeparture", "$assumedAndIsBeauvaisDeparture", "$assumedAndIsDep"] },
+
+    "greenIncomingTransfer": { "value": "36,114,41", "expression": ["$isInboundTransfer"] },
+    "greenOutgoingTransfer": { "value": "110,204,116", "expression": ["$isOutboundTransfer"] },
 
     "penWhenScratchpadNotEmpty": { "value": ":i\ue4f4", "expression": ["$scratchPathNotEmpty"] },
     "blueColorScratchpadNotEmpty": {
@@ -75,6 +95,22 @@
     "isDep": ["==", "isDeparture", "1"],
     "isArr": ["==", "isArrival", "1"],
 
+    "assumedAndIsArr": [
+      "AND",
+      [
+        ["==", "isArrival", "1"],
+        ["==", "attentionState", "3"]
+      ]
+    ],
+
+    "assumedAndIsDep": [
+      "AND",
+      [
+        ["==", "isDeparture", "1"],
+        ["==", "attentionState", "3"]
+      ]
+    ],
+
     "incorrectSquawk": ["!=", "squawk", "&assignedSquawk"],
     "noAssignedSquawk": ["==", "assignedSquawk", "0000"],
 
@@ -100,16 +136,72 @@
     "isAssumed": ["==", "attentionState", "3"],
     "notAssumed": ["!=", "attentionState", "3"],
 
-    "isParisGroupArrival": ["beginsWith", "destination", "LFP"],
-    "isParisGroupDeparture": ["beginsWith", "origin", "LFP"],
-    "isOrlyGroupArrival": [
-      "OR",
+    "assumedAndisParisGroupArrival": [
+      "AND",
       [
-        ["==", "destination", "LFPO"],
-        ["==", "destination", "LFPV"],
-        ["==", "destination", "LFPN"]
+        ["==", "attentionState", "3"],
+        "$isParisGroupArrival"
       ]
     ],
+
+    "assumedAndisParisGroupDeparture": [
+      "AND",
+      [
+        ["==", "attentionState", "3"],
+        "$isParisGroupDeparture"
+      ]
+    ],
+
+    "assumedAndIsBeauvaisDeparture": [
+      "AND",
+      [
+        ["==", "attentionState", "3"],
+        "$isBeauvaisDeparture"
+      ]
+    ],
+    "assumedAndIsBourgetArrival": [
+      "AND",
+      [
+        ["==", "attentionState", "3"],
+        "$isBourgetArrival"
+      ]
+    ],
+    "assumedAndIsOrlyArrival": [
+      "AND",
+      [
+        ["==", "attentionState", "3"],
+        "$isOrlyArrival"
+      ]
+    ],
+    "assumedAndIsCDGOrPBDeparture": [
+      "AND",
+      [
+        ["==", "attentionState", "3"],
+        "$isCDGOrPBDeparture"
+      ]
+    ],
+    "assumedAndIsLFPGNorthArrival": [
+      "AND",
+      [
+        ["==", "attentionState", "3"],
+        "$isLFPGNorthArrival"
+      ]
+    ],
+    "assumedAndIsLFPGSouthArrival": [
+      "AND",
+      [
+        ["==", "attentionState", "3"],
+        "$isLFPGSouthArrival"
+      ]
+    ],
+
+    "isParisGroupArrival": ["beginsWith", "destination", "LFP"],
+    "isParisGroupDeparture": ["beginsWith", "origin", "LFP"],
+
+    "isBeauvaisDeparture": ["==", "origin", "LFOB"],
+    "isBourgetArrival": ["==", "destination", "LFPB"],
+    "isOrlyArrival": ["==", "origin", "LFPO"],
+
     "isCDGOrPBDeparture": [
       "OR",
       [

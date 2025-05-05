@@ -250,6 +250,16 @@
           "truncate": [0, 2]
         },
         {
+          "itemName": "assignedMach",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 3],
+          "prefix": "m"
+        },
+        {
+          "itemName": "computedSpeed",
+          "prefix": "k"
+        },
+        {
           "itemName": "text",
           "value": "=penWhenScratchpadNotEmpty",
           "color": "=blueColorScratchpadNotEmpty"
@@ -257,7 +267,16 @@
       ],
       [
         {
-          "itemName": "callsign"
+          "itemName": "callsign",
+          "leftClick": "callsignMenu",
+          "color": "=cdgWhiteIfInStateOfInterest",
+          "backgroundColor": ["=greenIncomingTransfer", "=greenOutgoingTransfer", "=assumedAndcdgNord", "=assumedAndcdgSud", "=assumedAndcdgBourget", "=assumedAndcdgOrange", "=assumedAndcdgDepBleu", "=assumedAndcdgDepSat"]
+        },
+        {
+          "itemName": "text",
+          "truncate": [0, 3],
+          "color": [29,118,226],
+          "value": ["=suggestedSidIfNoAssigned", "&sid"]
         }
       ],
       [
@@ -279,6 +298,25 @@
         {
           "itemName": "databaseIcaoWakeCat",
           "placeholder": "Z"
+        },
+        {
+          "itemName": "clearedFlightLevel",
+          "padWithZeroLeft": 5,
+          "truncate": [0, 2],
+          "mapping": {
+            "1": "CA",
+            "2": "VA"
+          }
+        },
+        {
+          "itemName": "assignedDirect",
+          "leftClick": "triggerScratchpad"
+        },
+        {
+          "itemName": "assignedHeading",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 3],
+          "prefix": "h"
         }
       ]
     ],
@@ -308,12 +346,15 @@
       [
         {
           "itemName": "callsign",
-          "leftClick": "callsignMenu"
+          "leftClick": "callsignMenu",
+          "color": "=cdgWhiteIfInStateOfInterest",
+          "backgroundColor": ["=greenIncomingTransfer", "=greenOutgoingTransfer", "=assumedAndcdgNord", "=assumedAndcdgSud", "=assumedAndcdgBourget", "=assumedAndcdgOrange", "=assumedAndcdgDepBleu", "=assumedAndcdgDepSat"]
         },
         {
-          "itemName": "sid",
+          "itemName": "text",
           "truncate": [0, 3],
-          "color": [29,118,226]
+          "color": [29,118,226],
+          "value": ["=suggestedSidIfNoAssigned", "&sid"]
         }
       ],
       [
@@ -398,7 +439,8 @@
       [
         {
           "itemName": "callsign",
-          "leftClick": "callsignMenu"
+          "leftClick": "callsignMenu",
+          "color": "=cdgWhiteIfInStateOfInterest"
         },
         {
           "itemName": "ownedByID",
@@ -483,14 +525,10 @@
       {
         "description": "issy helico",
         "applyWhen": ["==", "squawk", "4217"],
-        "textColor": [155, 155, 137],
-        "textColorForState": {
-          "kAssumed": [238, 238, 211],
-          "kIncomingTransfer": [190, 225, 191]
-        },
-        "detailedBackgroundColor": [20, 20, 20],
-        "detailedBackgroundColorOpacity": 0.8,
-        "detailedRoundedCorners": 4,
+        "textColor": [212,212,185],
+        "detailedBackgroundColor": [25, 25, 25],
+        "detailedBackgroundColorOpacity": 0.9,
+        "detailedRoundedCorners": 2,
         "font": "OrlyLabelVATSIM",
         "fontWeight": "normal",
         "fontSize": 13
@@ -498,29 +536,21 @@
       {
         "description": "lfpg lfpb dep",
         "applyWhen": "$isCDGOrPBDeparture",
-        "textColor": [128, 165, 165],
-        "textColorForState": {
-          "kAssumed": [197, 253, 254],
-          "kIncomingTransfer": [190, 225, 191]
-        },
-        "detailedBackgroundColor": [20, 20, 20],
-        "detailedBackgroundColorOpacity": 0.8,
-        "detailedRoundedCorners": 4,
+        "textColor": [161,227,227],
+        "detailedBackgroundColor": [25, 25, 25],
+        "detailedBackgroundColorOpacity": 0.9,
+        "detailedRoundedCorners": 2,
         "font": "OrlyLabelVATSIM",
         "fontWeight": "normal",
         "fontSize": 13
       },
       {
-        "description": "orly group arrival",
-        "applyWhen": "$isOrlyGroupArrival",
-        "textColor": [160, 131, 96],
-        "textColorForState": {
-          "kAssumed": [246, 201, 147],
-          "kIncomingTransfer": [190, 225, 191]
-        },
-        "detailedBackgroundColor": [20, 20, 20],
-        "detailedBackgroundColorOpacity": 0.8,
-        "detailedRoundedCorners": 4,
+        "description": "Orly / Sat arrivals",
+        "applyWhen": ["OR", ["$isOrlyArrival", "$isArr"]],
+        "textColor": [227,177,124],
+        "detailedBackgroundColor": [25, 25, 25],
+        "detailedBackgroundColorOpacity": 0.9,
+        "detailedRoundedCorners": 2,
         "font": "OrlyLabelVATSIM",
         "fontWeight": "normal",
         "fontSize": 13
@@ -528,14 +558,10 @@
       {
         "description": "lfpg south arrival",
         "applyWhen": "$isLFPGSouthArrival",
-        "textColor": [158, 117, 116],
-        "textColorForState": {
-          "kAssumed": [243, 179, 178],
-          "kIncomingTransfer": [190, 225, 191]
-        },
-        "detailedBackgroundColor": [20, 20, 20],
-        "detailedBackgroundColorOpacity": 0.8,
-        "detailedRoundedCorners": 4,
+        "textColor": [128,165,165],
+        "detailedBackgroundColor": [25, 25, 25],
+        "detailedBackgroundColorOpacity": 0.9,
+        "detailedRoundedCorners": 2,
         "font": "OrlyLabelVATSIM",
         "fontWeight": "normal",
         "fontSize": 13
@@ -543,29 +569,21 @@
       {
         "description": "lfpg north arrival",
         "applyWhen": "$isLFPGNorthArrival",
-        "textColor": [161, 136, 147],
-        "textColorForState": {
-          "kAssumed": [247, 209, 227],
-          "kIncomingTransfer": [190, 225, 191]
-        },
-        "detailedBackgroundColor": [20, 20, 20],
-        "detailedBackgroundColorOpacity": 0.8,
-        "detailedRoundedCorners": 4,
+        "textColor": [227,184,203],
+        "detailedBackgroundColor": [25, 25, 25],
+        "detailedBackgroundColorOpacity": 0.9,
+        "detailedRoundedCorners": 2,
         "font": "OrlyLabelVATSIM",
         "fontWeight": "normal",
         "fontSize": 13
       },
       {
         "description": "lfpb arrival",
-        "applyWhen": ["==", "destination", "LFPB"],
-        "textColor": [147, 111, 164],
-        "textColorForState": {
-          "kAssumed": [227, 171, 250],
-          "kIncomingTransfer": [190, 225, 191]
-        },
-        "detailedBackgroundColor": [20, 20, 20],
-        "detailedBackgroundColorOpacity": 0.8,
-        "detailedRoundedCorners": 4,
+        "applyWhen": "$isBourgetArrival",
+        "textColor": [211,150,227],
+        "detailedBackgroundColor": [25, 25, 25],
+        "detailedBackgroundColorOpacity": 0.9,
+        "detailedRoundedCorners": 2,
         "font": "OrlyLabelVATSIM",
         "fontWeight": "normal",
         "fontSize": 13
@@ -573,29 +591,10 @@
       {
         "description": "other departures",
         "applyToIsDeparture": true,
-        "textColor": [91, 139, 161],
-        "textColorForState": {
-          "kAssumed": [140, 214, 246],
-          "kIncomingTransfer": [190, 225, 191]
-        },
-        "detailedBackgroundColor": [20, 20, 20],
-        "detailedBackgroundColorOpacity": 0.8,
-        "detailedRoundedCorners": 4,
-        "font": "OrlyLabelVATSIM",
-        "fontWeight": "normal",
-        "fontSize": 13
-      },
-      {
-        "description": "other arrivals not assumed",
-        "applyWhen": ["OR", ["$isArr", "$isParisGroupArrival"]],
-        "textColor": [160, 131, 96],
-        "textColorForState": {
-          "kAssumed": [246, 201, 147],
-          "kIncomingTransfer": [190, 225, 191]
-        },
-        "detailedBackgroundColor": [20, 20, 20],
-        "detailedBackgroundColorOpacity": 0.8,
-        "detailedRoundedCorners": 4,
+        "textColor": [101,192,223],
+        "detailedBackgroundColor": [25, 25, 25],
+        "detailedBackgroundColorOpacity": 0.9,
+        "detailedRoundedCorners": 2,
         "font": "OrlyLabelVATSIM",
         "fontWeight": "normal",
         "fontSize": 13
@@ -603,27 +602,21 @@
       {
         "description": "other assumed",
         "applyWhen": "$isAssumed",
-        "textColor": [238, 238, 211],
-        "textColorForState": {
-          "kIncomingTransfer": [190, 225, 191]
-        },
-        "detailedBackgroundColor": [20, 20, 20],
-        "detailedBackgroundColorOpacity": 0.8,
-        "detailedRoundedCorners": 4,
+        "textColor": [212,212,185],
+          "detailedBackgroundColor": [25, 25, 25],
+          "detailedBackgroundColorOpacity": 0.9,
+          "detailedRoundedCorners": 2,
         "font": "OrlyLabelVATSIM",
         "fontWeight": "normal",
         "fontSize": 13
       },
       {
         "description": "catch all unconcerned default",
-        "textColor": [0, 0, 0],
-        "detailedBackgroundColor": [20, 20, 20],
-        "detailedBackgroundColorOpacity": 0.8,
-        "textColorForState": {
-          "kIncomingTransfer": [190, 225, 191]
-        },
-        "detailedRoundedCorners": 4,
-        "detailedTextColor": [200, 200, 200],
+        "textColor": [11,11,11],
+        "detailedBackgroundColor": [25, 25, 25],
+        "detailedBackgroundColorOpacity": 0.9,
+        "detailedRoundedCorners": 2,
+        "detailedTextColor": [212,212,185],
         "font": "OrlyLabelVATSIM",
         "fontWeight": "normal",
         "fontSize": 13

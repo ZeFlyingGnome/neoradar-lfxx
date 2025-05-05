@@ -1,0 +1,121 @@
+{
+  "$schema": "https://raw.githubusercontent.com/neoradar-project/schemas/refs/heads/main/systems/targets.schema.json",
+  "groundSymbology": {
+    "default": [
+      {
+        "plotImage": "plots/cdg/blanc/t2",
+        "historyTrailImages": [
+          "plots/cdg/blanc/t5",
+          "plots/cdg/blanc/t5",
+          "plots/cdg/blanc/t5"
+        ]
+      }
+    ],
+    "departure": [
+      {
+        "plotImage": "plots/cdg/blanc/t2",
+        "historyTrailImages": [
+          "plots/cdg/blanc/t5",
+          "plots/cdg/blanc/t5",
+          "plots/cdg/blanc/t5"
+        ]
+      }
+    ],
+    "arrival": [
+      {
+        "plotImage": "plots/cdg/blanc/t2",
+        "historyTrailImages": [
+          "plots/cdg/blanc/t5",
+          "plots/cdg/blanc/t5",
+          "plots/cdg/blanc/t5"
+        ]
+      }
+    ]
+  },
+  "airborneSymbology": [
+    {
+      "description": "assumed air",
+      "applyToAttentionStates": ["kAssumed"],
+      "plotImage": "plots/cofrance/assumed/aircraft",
+      "historyTrailsSkipSteps": 5,
+      "historyTrailImages": [
+        "plots/cofrance/assumed/t1",
+        "plots/cofrance/assumed/t2",
+        "plots/cofrance/assumed/t3",
+        "plots/cofrance/assumed/t4",
+        "plots/cofrance/assumed/t5",
+        "plots/cofrance/assumed/t6",
+        "plots/cofrance/assumed/t7",
+        "plots/cofrance/assumed/t8"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "incoming transfer",
+      "applyToAttentionStates": ["kIncomingTransfer"],
+      "plotImage": "plots/cofrance/transfer/aircraft",
+      "historyTrailsSkipSteps": 5,
+      "historyTrailImages": [
+        "plots/cofrance/transfer/t1",
+        "plots/cofrance/transfer/t2",
+        "plots/cofrance/transfer/t3",
+        "plots/cofrance/transfer/t4",
+        "plots/cofrance/transfer/t5",
+        "plots/cofrance/transfer/t6",
+        "plots/cofrance/transfer/t7",
+        "plots/cofrance/transfer/t8"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "redundant",
+      "applyToAttentionStates": ["kOutgoingTransfer", "kIntruder"],
+      "plotImage": "plots/cofrance/redundant/aircraft",
+      "historyTrailsSkipSteps": 5,
+      "historyTrailImages": [
+        "plots/cofrance/redundant/t1",
+        "plots/cofrance/redundant/t2",
+        "plots/cofrance/redundant/t3",
+        "plots/cofrance/redundant/t4",
+        "plots/cofrance/redundant/t5",
+        "plots/cofrance/redundant/t6",
+        "plots/cofrance/redundant/t7",
+        "plots/cofrance/redundant/t8"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "notified",
+      "applyToAttentionStates": ["kNotified"],
+      "plotImage": "plots/cofrance/notified/aircraft",
+      "historyTrailsSkipSteps": 5,
+      "historyTrailImages": [
+        "plots/cofrance/notified/t1",
+        "plots/cofrance/notified/t2",
+        "plots/cofrance/notified/t3",
+        "plots/cofrance/notified/t4",
+        "plots/cofrance/notified/t5",
+        "plots/cofrance/notified/t6",
+        "plots/cofrance/notified/t7",
+        "plots/cofrance/notified/t8"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    },
+    {
+      "description": "Unconcerned air",
+      "historyTrailsSkipSteps": 5,
+      "plotImage": "plots/cofrance/unconcerned/aircraft",
+      "historyTrailImages": [
+        "plots/cofrance/unconcerned/t1",
+        "plots/cofrance/unconcerned/t2",
+        "plots/cofrance/unconcerned/t3",
+        "plots/cofrance/unconcerned/t4",
+        "plots/cofrance/unconcerned/t5",
+        "plots/cofrance/unconcerned/t6",
+        "plots/cofrance/unconcerned/t7",
+        "plots/cofrance/unconcerned/t8"
+      ],
+      "rotateHistoryTrailWithHeading": true
+    }
+  ]
+}
