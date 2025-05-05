@@ -90,7 +90,8 @@
           "fontWeight": "bold",
           "fontSize": 12,
           "leftClick": "callsignMenu",
-          "prefix": ["=assumedPrefix"]
+          "prefix": ["=assumedPrefix"],
+          "color": "=incorrectSquawkRedColor"
         },
         {
           "itemName": "acShortType",
