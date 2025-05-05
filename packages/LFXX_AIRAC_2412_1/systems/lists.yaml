@@ -129,9 +129,13 @@
     - name: assr
       width: 50
       tagItem:
-        itemName: assignedSquawk
+        itemName: text
+        value:
+          - =emptyIfNoAssignedSquawk
+          - |
+            &assignedSquawk
         placeholder: "----"
-        color: "=incorrectSquawkColor"
+        color: "=incorrectSquawkYellowColor"
         leftClick: assignRandomSquawk
         rightClick: assignSq1000
     - name: e
@@ -160,7 +164,7 @@
       tagItem:
         itemName: groundStatus
         mapping:
-          0: "NOST"
+          0: ""
           1: "STUP"
           2: "PUSH"
           3: "TAXI"

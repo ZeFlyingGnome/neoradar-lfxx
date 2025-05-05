@@ -1,2 +1,4 @@
 airways.db
 .DS_Store
+logs/
+*.db

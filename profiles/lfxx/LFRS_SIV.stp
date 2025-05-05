@@ -50,7 +50,7 @@
     ]
   },
   "type": "profile",
-  "atmSystem": "CoFranceApp",
+  "atmSystem": "default",
   "updatedAt": "2025-03-28T20:39:09.036Z",
   "radarData": {
     "gndFilterStatus": false,
