@@ -1,7 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/neoradar-project/schemas/main/systems/expressions.schema.json",
   "rules": {
-    "incorrectSquawkColor": { "value": "239, 247, 72", "expression": ["$incorrectSquawk"] },
+    "incorrectSquawkYellowColor": { "value": "239, 247, 72", "expression": ["$incorrectSquawk"] },
+    "incorrectSquawkRedColor": { "value": "239, 20, 72", "expression": ["$incorrectSquawk"] },
+    "emptyIfNoAssignedSquawk":  {"value": "", "expression": ["$noAssignedSquawk"] },
 
     "suggestedSidIfNoAssigned": { "value": "&suggestedSid", "expression": ["$isAssignedSidEmpty"] },
     "suggestedDepRunwayIfNoAssigned": {
@@ -74,6 +76,7 @@
     "isArr": ["==", "isArrival", "1"],
 
     "incorrectSquawk": ["!=", "squawk", "&assignedSquawk"],
+    "noAssignedSquawk": ["==", "assignedSquawk", "0000"],
 
     "isAssignedSidEmpty": ["isEmpty", "sid"],
     "isAssignedDepRunwayEmpty": ["isEmpty", "depRunway"],
