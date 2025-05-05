@@ -164,7 +164,7 @@
       tagItem:
         itemName: groundStatus
         mapping:
-          0: "NOST"
+          0: ""
           1: "STUP"
           2: "PUSH"
           3: "TAXI"
