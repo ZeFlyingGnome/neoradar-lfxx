@@ -20,9 +20,9 @@
         {
           "itemName": "callsign",
           "prefix": ["=assumedPrefix"],
-
           "fontWeight": "bold",
-          "fontSize": 12
+          "fontSize": 12,
+          "color": "=incorrectSquawkRedColor"
         },
         {
           "itemName": "text",
@@ -90,7 +90,8 @@
           "fontWeight": "bold",
           "fontSize": 12,
           "leftClick": "callsignMenu",
-          "prefix": ["=assumedPrefix"]
+          "prefix": ["=assumedPrefix"],
+          "color": "=incorrectSquawkRedColor"
         },
         {
           "itemName": "acShortType",
