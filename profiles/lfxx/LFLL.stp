@@ -13,7 +13,7 @@
     },
     "transitionAltitude": 5000
   },
-  "atmSystem": "CoFranceApp",
+  "atmSystem": "default",
   "map": {
     "center": {
       "x": 584638.4061917772,
