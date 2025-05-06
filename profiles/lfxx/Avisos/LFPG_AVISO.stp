@@ -57,7 +57,7 @@
   ],
   "groupLabel": "Avisos",
   "radarData": {
-    "transitionAltitude": 10000,
+    "transitionAltitude": 5000,
     "speedVector": {
       "type": "NM",
       "value": 0

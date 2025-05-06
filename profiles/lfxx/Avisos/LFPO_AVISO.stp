@@ -2,6 +2,9 @@
   "name": "LFPO_AVISO",
   "type": "profile",
   "updatedAt": "2025-02-15T14:42:28.583Z",
+  "radarData": {
+    "transitionAltitude": 5000
+  },
   "map": {
     "center": {
       "x": 262579.46866750193,
