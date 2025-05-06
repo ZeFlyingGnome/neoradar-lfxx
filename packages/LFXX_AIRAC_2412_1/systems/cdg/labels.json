@@ -545,20 +545,9 @@
         "fontSize": 13
       },
       {
-        "description": "Orly / Sat arrivals",
-        "applyWhen": ["OR", ["$isOrlyArrival", "$isArr"]],
-        "textColor": [227,177,124],
-        "detailedBackgroundColor": [25, 25, 25],
-        "detailedBackgroundColorOpacity": 0.9,
-        "detailedRoundedCorners": 2,
-        "font": "OrlyLabelVATSIM",
-        "fontWeight": "normal",
-        "fontSize": 13
-      },
-      {
         "description": "lfpg south arrival",
         "applyWhen": "$isLFPGSouthArrival",
-        "textColor": [128,165,165],
+        "textColor": [227,157,157],
         "detailedBackgroundColor": [25, 25, 25],
         "detailedBackgroundColorOpacity": 0.9,
         "detailedRoundedCorners": 2,
@@ -581,6 +570,17 @@
         "description": "lfpb arrival",
         "applyWhen": "$isBourgetArrival",
         "textColor": [211,150,227],
+        "detailedBackgroundColor": [25, 25, 25],
+        "detailedBackgroundColorOpacity": 0.9,
+        "detailedRoundedCorners": 2,
+        "font": "OrlyLabelVATSIM",
+        "fontWeight": "normal",
+        "fontSize": 13
+      },
+      {
+        "description": "Orly / Sat arrivals",
+        "applyWhen": ["OR", ["$isOrlyArrival", "$isArr"]],
+        "textColor": [227,177,124],
         "detailedBackgroundColor": [25, 25, 25],
         "detailedBackgroundColorOpacity": 0.9,
         "detailedRoundedCorners": 2,
