@@ -200,7 +200,7 @@
 
     "isBeauvaisDeparture": ["==", "origin", "LFOB"],
     "isBourgetArrival": ["==", "destination", "LFPB"],
-    "isOrlyArrival": ["==", "origin", "LFPO"],
+    "isOrlyArrival": ["==", "destination", "LFPO"],
 
     "isCDGOrPBDeparture": [
       "OR",
