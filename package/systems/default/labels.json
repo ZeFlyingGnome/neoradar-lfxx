@@ -4,6 +4,15 @@
     "default": [
       [
         {
+          "itemName": "plugin:NeoVSID:TAG_ALERT",
+          "value": "No Push Clearance",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "backgroundColor":[234, 171, 24]
+        }
+      ],
+      [
+        {
           "itemName": "callsign",
           "prefix": ["=assumedPrefix"],
           "suffix": ["=assumedSuffix"],
@@ -27,6 +36,15 @@
       ]
     ],
     "departure": [
+      [
+        {
+          "itemName": "plugin:NeoVSID:TAG_ALERT",
+          "value": "No Push Clearance",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "backgroundColor":[234, 171, 24]
+        }
+      ],
       [
         {
           "itemName": "callsign",
@@ -317,6 +335,28 @@
           "truncate": [0, 2]
         },
         {
+          "itemName":"verticalSpeed",
+          "truncate":[ "=emmergencyDescentTruncate", "=notEmmergencyDescentTruncate"],
+          "showPlusMinus": true,
+          "color": [255,255,255],
+          "backgroundColor":[218, 89, 50]
+        },
+        {
+          "itemName": "text",
+          "value":["=emmergencyDescentArrow"],
+          "fontWeight":"bold",
+          "color":[218, 89, 50],
+          "backgroundColor":[1,1,1]
+        },
+        {
+          "separatorBefore": true,
+          "itemName": "text",
+          "value": ["=isMayday", "=isRDOF"],
+          "fontWeight": "bold",
+          "backgroundColor": [1,1,1],
+          "color": [218, 89, 50]
+        },
+        {
           "itemName": "text",
           "value": "=penWhenScratchpadNotEmpty",
           "color": "=blueColorScratchpadNotEmpty"
@@ -372,6 +412,28 @@
         {
           "itemName": "computedSpeed",
           "prefix": "k"
+        },
+        {
+          "itemName":"verticalSpeed",
+          "truncate":[ "=emmergencyDescentTruncate", "=notEmmergencyDescentTruncate"],
+          "showPlusMinus": true,
+          "color": [255,255,255],
+          "backgroundColor":[218, 89, 50]
+        },
+        {
+          "itemName": "text",
+          "value":["=emmergencyDescentArrow"],
+          "fontWeight":"bold",
+          "color":[218, 89, 50],
+          "backgroundColor":[1,1,1]
+        },
+        {
+          "separatorBefore": true,
+          "itemName": "text",
+          "value": ["=isMayday", "=isRDOF"],
+          "fontWeight": "bold",
+          "backgroundColor": [1,1,1],
+          "color": [218, 89, 50]
         },
         {
           "itemName": "text",
@@ -455,6 +517,28 @@
           "rightClick": "clearSpd"
         },
         {
+          "itemName":"verticalSpeed",
+          "truncate":[ "=emmergencyDescentTruncate", "=notEmmergencyDescentTruncate"],
+          "showPlusMinus": true,
+          "color": [255,255,255],
+          "backgroundColor":[218, 89, 50]
+        },
+        {
+          "itemName": "text",
+          "value":["=emmergencyDescentArrow"],
+          "fontWeight":"bold",
+          "color":[218, 89, 50],
+          "backgroundColor":[1,1,1]
+        },
+        {
+          "separatorBefore": true,
+          "itemName": "text",
+          "value": ["=isMayday", "=isRDOF"],
+          "fontWeight": "bold",
+          "backgroundColor": [1,1,1],
+          "color": [218, 89, 50]
+        },
+        {
           "itemName": "scratchpad",
           "placeholder": ":i\ue4f4",
           "color": "=blueColorScratchpadNotEmpty",
@@ -487,7 +571,7 @@
           "color": [255, 220, 3]
         },
         {
-          "itemName": "ownedByID",
+          "itemName": "sectorIndicator",
           "placeholder": "---"
         },
         {

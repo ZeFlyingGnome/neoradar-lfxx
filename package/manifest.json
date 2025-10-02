@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/neoradar-project/schemas/refs/heads/main/package/manifest.schema.json",
   "id": "LFXX",
   "name": "LFXX",
-  "version": "2413_4",
+  "version": "2413_5",
   "description": "Combined LFXX for all French FIRs",
   "namespace": "lfxx",
-  "createdAt": "2025-07-26T12:22:36.962Z",
+  "createdAt": "2025-09-05T17:26:47.483Z",
   "centerPoint": [
     847183.3480445864,
     -6195983.977450224
@@ -15,11 +15,6 @@
       "name": "region",
       "type": "geojson",
       "source": "region"
-    },
-    {
-      "name": "maps",
-      "type": "geojson",
-      "source": "maps"
     },
     {
       "name": "artcc",
@@ -149,6 +144,13 @@
       "name": "geo",
       "type": "geojson",
       "source": "geo"
+    },
+    {
+      "source": "lfff",
+      "type": "geojson",
+      "name": "lfff",
+      "hasLabels": false,
+      "isLabelLayer": false
     },
     {
       "name": "fix",
@@ -391,13 +393,6 @@
       },
       "hasLabels": true,
       "isLabelLayer": true
-    },
-    {
-      "source": "cdg-dev",
-      "type": "geojson",
-      "name": "cdg-dev",
-      "hasLabels": false,
-      "isLabelLayer": false
     }
   ],
   "fonts": [

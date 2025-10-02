@@ -1,0 +1,37 @@
+name: Publish Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js 22
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+        
+    - name: Install dependencies
+      run: | 
+        npm install --global yarn
+        yarn global add https://github.com/neoradar-project/cli.git
+      
+    - name: Install aws secrets
+      run: |
+        mkdir -p ~/.aws
+        echo "${{ secrets.AWS_PUBLISH_CREDENTIALS }}" > ~/.aws/credentials
+
+    - name: Install navdata
+      run: wget ${{ secrets.DATABASE_URL }} -O ./package/datasets/airways.db
+
+    - name: Get commit short SHA
+      id: vars
+      run: echo "##[set-output name=COMMIT_SHA;]$(echo ${GITHUB_SHA} | cut -c1-3)"
+
+    - name: Publish Release
+      run: |
+        neoradar-cli distribute --new-version "$(cat VERSION)_${{ steps.vars.outputs.COMMIT_SHA }}" --publish ./

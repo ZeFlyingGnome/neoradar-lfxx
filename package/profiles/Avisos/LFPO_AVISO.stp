@@ -1,41 +1,24 @@
 {
   "name": "LFPO_AVISO",
   "type": "profile",
-  "updatedAt": "2025-07-07T22:08:06.182Z",
-  "radarData": {
-    "gndFilterStatus": true,
-    "upperFilterValue": 15,
-    "speedVector": {
-      "value": 0,
-      "type": "NM"
-    },
-    "transitionAltitude": 10000
-  },
+  "updatedAt": "2025-09-05T17:25:12.595Z",
   "map": {
     "center": {
-      "x": 263515.2404433347,
-      "y": -6229211.177338493
+      "x": 262579.46866750193,
+      "y": 6228647.770693015
     },
-    "zoom": 0.328809075864169,
-    "orientation": 0,
     "windowArea": {
-      "minX": 259622.40385834707,
-      "minY": 6231327.9072315805,
-      "maxX": 267408.07702832227,
-      "maxY": 6227094.447445407
+      "minX": 257972.01060331377,
+      "minY": 6226217.699619965,
+      "maxX": 267186.9267316901,
+      "maxY": 6231078.537815635
     },
+    "zoom": 7,
+    "orientation": 0,
     "items": [
       {
         "showLabel": false,
         "uuid": "region-lfpo-aviso"
-      },
-      {
-        "showLabel": false,
-        "uuid": "label-lfpo-gates"
-      },
-      {
-        "showLabel": false,
-        "uuid": "label-lfpo-taxiways"
       }
     ]
   }

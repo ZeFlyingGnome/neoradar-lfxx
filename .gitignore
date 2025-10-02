@@ -10,3 +10,6 @@ ICAO_Aircraft.txt
 ICAO_Airlines.txt
 ICAO_Airports.txt
 dist/*
+
+.ignore/
+dist/

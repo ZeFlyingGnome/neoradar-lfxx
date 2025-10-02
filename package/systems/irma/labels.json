@@ -359,6 +359,28 @@
           "prefix": "m"
         },
         {
+          "itemName":"verticalSpeed",
+          "truncate":[ "=emmergencyDescentTruncate", "=notEmmergencyDescentTruncate"],
+          "showPlusMinus": true,
+          "color": [255,255,255],
+          "backgroundColor":[218, 89, 50]
+        },
+        {
+          "itemName": "text",
+          "value":["=emmergencyDescentArrow"],
+          "fontWeight":"bold",
+          "color":[218, 89, 50],
+          "backgroundColor":[1,1,1]
+        },
+        {
+          "separatorBefore": true,
+          "itemName": "text",
+          "value": ["=isMayday", "=isRDOF"],
+          "fontWeight": "bold",
+          "backgroundColor": [1,1,1],
+          "color": [218, 89, 50]
+        },
+        {
           "itemName": "text",
           "value": "=penWhenScratchpadNotEmpty",
           "color": "=blueColorScratchpadNotEmpty"
@@ -368,7 +390,7 @@
         {
           "itemName": "callsign",
           "leftClick": "callsignMenu",
-          "color": ["=assumedEmmergency", "=cdgWhiteIfInStateOfInterest"]
+          "color": ["=cdgWhiteIfInStateOfInterest"]
         },
         {
           "separatorBefore": true,
@@ -451,15 +473,56 @@
     "concerned": [
       [
         {
-          "itemName": "callsign",
-          "leftClick": "callsignMenu",
-          "color": "=cdgWhiteIfInStateOfInterest",
-          "backgroundColor": ["=assumedEmmergency", "=assumedVFRandArrival", "=assumedTransitVFR", "=assumedAndDeparture", "=assumedAndArrival", "=assumedTransitIFR"]
+          "itemName": "assignedMach",
+          "padWithZeroLeft": 3,
+          "truncate": [0, 3],
+          "prefix": "m"
+        },
+        {
+          "itemName":"verticalSpeed",
+          "truncate":[ "=emmergencyDescentTruncate", "=notEmmergencyDescentTruncate"],
+          "showPlusMinus": true,
+          "color": [255,255,255],
+          "backgroundColor":[218, 89, 50]
+        },
+        {
+          "itemName": "text",
+          "value":["=emmergencyDescentArrow"],
+          "fontWeight":"bold",
+          "color":[218, 89, 50],
+          "backgroundColor":[1,1,1]
+        },
+        {
+          "separatorBefore": true,
+          "itemName": "text",
+          "value": ["=isMayday", "=isRDOF"],
+          "fontWeight": "bold",
+          "backgroundColor": [1,1,1],
+          "color": [218, 89, 50]
         },
         {
           "itemName": "text",
           "value": "=penWhenScratchpadNotEmpty",
           "color": "=blueColorScratchpadNotEmpty"
+        }
+      ],
+      [
+        {
+          "itemName": "callsign",
+          "leftClick": "callsignMenu",
+          "color": "=cdgWhiteIfInStateOfInterest",
+          "backgroundColor": ["=assumedVFRandArrival", "=assumedTransitVFR", "=assumedAndDeparture", "=assumedAndArrival", "=assumedTransitIFR"]
+        },
+        {
+          "separatorBefore": false,
+          "itemName": "voiceType",
+          "leftClick": "voiceTypeMenu",
+          "mapping": {
+            "0": "",
+            "1": "/r",
+            "2": "/t"
+          },
+          "color": [255, 220, 3]
         },
         {
           "separatorBefore": false,
@@ -548,6 +611,33 @@
           "prefix": "m",
           "leftClick": "spd",
           "rightClick": "clearSpd"
+        },
+        {
+          "itemName":"verticalSpeed",
+          "truncate":[ "=emmergencyDescentTruncate", "=notEmmergencyDescentTruncate"],
+          "showPlusMinus": true,
+          "color": [255,255,255],
+          "backgroundColor":[218, 89, 50]
+        },
+        {
+          "itemName": "text",
+          "value":["=emmergencyDescentArrow"],
+          "fontWeight":"bold",
+          "color":[218, 89, 50],
+          "backgroundColor":[1,1,1]
+        },
+        {
+          "separatorBefore": true,
+          "itemName": "text",
+          "value": ["=isMayday", "=isRDOF"],
+          "fontWeight": "bold",
+          "backgroundColor": [1,1,1],
+          "color": [218, 89, 50]
+        },
+        {
+          "itemName": "text",
+          "value": "=penWhenScratchpadNotEmpty",
+          "color": "=blueColorScratchpadNotEmpty"
         }
       ],
       [
@@ -557,9 +647,14 @@
           "color": "=cdgWhiteIfInStateOfInterest"
         },
         {
-          "itemName": "text",
-          "value": ["=textPilotIndicator"],
+          "separatorBefore": false,
+          "itemName": "voiceType",
           "leftClick": "voiceTypeMenu",
+          "mapping": {
+            "0": "",
+            "1": "/r",
+            "2": "/t"
+          },
           "color": [255, 220, 3]
         },
         {
@@ -569,7 +664,7 @@
           "leftClick": "triggerScratchpad"
         },
         {
-          "itemName": "ownedByID",
+          "itemName": "sectorIndicator",
           "placeholder": "---"
         }
       ],

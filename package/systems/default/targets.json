@@ -10,6 +10,7 @@
           [0, 219, 219],
           [0, 183, 183]
         ],
+        "historyTrailsSkipSteps": 3,
         "historyTrailImages": [
           "plots/cdg/blanc/t5",
           "plots/cdg/blanc/t5",
@@ -26,6 +27,7 @@
           [0, 219, 219],
           [0, 183, 183]
         ],
+        "historyTrailsSkipSteps": 3,
         "historyTrailImages": [
           "plots/cdg/blanc/t5",
           "plots/cdg/blanc/t5",
@@ -42,6 +44,7 @@
           [0, 219, 219],
           [0, 183, 183]
         ],
+        "historyTrailsSkipSteps": 3,
         "historyTrailImages": [
           "plots/cdg/blanc/t5",
           "plots/cdg/blanc/t5",
@@ -54,7 +57,7 @@
     {
       "description": "assumed air",
       "applyToAttentionStates": ["kAssumed"],
-      "plotImage": "plots/cofrance/assumed/aircraft",
+      "plotImage": "plots/cofrance/assumed/t0",
       "historyTrailsSkipSteps": 5,
       "historyTrailImages": [
         "plots/cofrance/assumed/t1",
@@ -71,7 +74,7 @@
     {
       "description": "incoming transfer",
       "applyToAttentionStates": ["kIncomingTransfer"],
-      "plotImage": "plots/cofrance/transfer/aircraft",
+      "plotImage": "plots/cofrance/transfer/t0",
       "historyTrailsSkipSteps": 5,
       "historyTrailImages": [
         "plots/cofrance/transfer/t1",
@@ -88,7 +91,7 @@
     {
       "description": "redundant",
       "applyToAttentionStates": ["kOutgoingTransfer", "kIntruder"],
-      "plotImage": "plots/cofrance/redundant/aircraft",
+      "plotImage": "plots/cofrance/redundant/t0",
       "historyTrailsSkipSteps": 5,
       "historyTrailImages": [
         "plots/cofrance/redundant/t1",
@@ -105,7 +108,7 @@
     {
       "description": "notified",
       "applyToAttentionStates": ["kNotified"],
-      "plotImage": "plots/cofrance/notified/aircraft",
+      "plotImage": "plots/cofrance/notified/t0",
       "historyTrailsSkipSteps": 5,
       "historyTrailImages": [
         "plots/cofrance/notified/t1",
@@ -122,7 +125,7 @@
     {
       "description": "Unconcerned air",
       "historyTrailsSkipSteps": 5,
-      "plotImage": "plots/cofrance/unconcerned/aircraft",
+      "plotImage": "plots/cofrance/unconcerned/t0",
       "historyTrailImages": [
         "plots/cofrance/unconcerned/t1",
         "plots/cofrance/unconcerned/t2",

@@ -361,6 +361,28 @@
           "prefix": "m"
         },
         {
+          "itemName":"verticalSpeed",
+          "truncate":[ "=emmergencyDescentTruncate", "=notEmmergencyDescentTruncate"],
+          "showPlusMinus": true,
+          "color": [255,255,255],
+          "backgroundColor":[218, 89, 50]
+        },
+        {
+          "itemName": "text",
+          "value":["=emmergencyDescentArrow"],
+          "fontWeight":"bold",
+          "color":[218, 89, 50],
+          "backgroundColor":[1,1,1]
+        },
+        {
+          "separatorBefore": true,
+          "itemName": "text",
+          "value": ["=isMayday", "=isRDOF"],
+          "fontWeight": "bold",
+          "backgroundColor": [1,1,1],
+          "color": [218, 89, 50]
+        },
+        {
           "itemName": "text",
           "value": "=penWhenScratchpadNotEmpty",
           "color": "=blueColorScratchpadNotEmpty"
@@ -371,11 +393,17 @@
           "itemName": "callsign",
           "leftClick": "callsignMenu",
           "color": "=cdgWhiteIfInStateOfInterest",
-          "backgroundColor": ["=assumedEmmergency", "=greenIncomingTransfer", "=greenOutgoingTransfer", "=assumedAndcdgNord", "=assumedAndcdgSud", "=assumedAndcdgBourget", "=assumedAndcdgOrange", "=assumedAndcdgDepBleu", "=assumedAndcdgDepSat"]
+          "backgroundColor": ["=greenIncomingTransfer", "=greenOutgoingTransfer", "=assumedAndcdgNord", "=assumedAndcdgSud", "=assumedAndcdgBourget", "=assumedAndcdgOrange", "=assumedAndcdgDepBleu", "=assumedAndcdgDepSat"]
         },
         {
-          "itemName": "text",
-          "value": ["=textPilotIndicator"],
+          "separatorBefore": false,
+          "itemName": "voiceType",
+          "leftClick": "voiceTypeMenu",
+          "mapping": {
+            "0": "",
+            "1": "/r",
+            "2": "/t"
+          },
           "color": [255, 220, 3]
         },
         {
@@ -454,6 +482,28 @@
           "prefix": "m"
         },
         {
+          "itemName":"verticalSpeed",
+          "truncate":[ "=emmergencyDescentTruncate", "=notEmmergencyDescentTruncate"],
+          "showPlusMinus": true,
+          "color": [255,255,255],
+          "backgroundColor":[218, 89, 50]
+        },
+        {
+          "itemName": "text",
+          "value":["=emmergencyDescentArrow"],
+          "fontWeight":"bold",
+          "color":[218, 89, 50],
+          "backgroundColor":[1,1,1]
+        },
+        {
+          "separatorBefore": true,
+          "itemName": "text",
+          "value": ["=isMayday", "=isRDOF"],
+          "fontWeight": "bold",
+          "backgroundColor": [1,1,1],
+          "color": [218, 89, 50]
+        },
+        {
           "itemName": "text",
           "value": "=penWhenScratchpadNotEmpty",
           "color": "=blueColorScratchpadNotEmpty"
@@ -464,11 +514,17 @@
           "itemName": "callsign",
           "leftClick": "callsignMenu",
           "color": ["=cdgWhiteIfInStateOfInterest"],
-          "backgroundColor": ["=assumedEmmergency", "=assumedVFRandArrival", "=assumedTransitVFR", "=assumedNCEDeparture", "=assumedNCEArrival", "=assumedSATDeparture", "=assumedSATArrival", "=assumedTransitIFR"]
+          "backgroundColor": ["=assumedVFRandArrival", "=assumedTransitVFR", "=assumedNCEDeparture", "=assumedNCEArrival", "=assumedSATDeparture", "=assumedSATArrival", "=assumedTransitIFR"]
         },
         {
-          "itemName": "text",
-          "value": ["=textPilotIndicator"],
+          "separatorBefore": false,
+          "itemName": "voiceType",
+          "leftClick": "voiceTypeMenu",
+          "mapping": {
+            "0": "",
+            "1": "/r",
+            "2": "/t"
+          },
           "color": [255, 220, 3]
         },
         {
@@ -549,6 +605,28 @@
           "rightClick": "clearSpd"
         },
         {
+          "itemName":"verticalSpeed",
+          "truncate":[ "=emmergencyDescentTruncate", "=notEmmergencyDescentTruncate"],
+          "showPlusMinus": true,
+          "color": [255,255,255],
+          "backgroundColor":[218, 89, 50]
+        },
+        {
+          "itemName": "text",
+          "value":["=emmergencyDescentArrow"],
+          "fontWeight":"bold",
+          "color":[218, 89, 50],
+          "backgroundColor":[1,1,1]
+        },
+        {
+          "separatorBefore": true,
+          "itemName": "text",
+          "value": ["=isMayday", "=isRDOF"],
+          "fontWeight": "bold",
+          "backgroundColor": [1,1,1],
+          "color": [218, 89, 50]
+        },
+        {
           "itemName": "acShortType"
         },
         {
@@ -565,13 +643,18 @@
           "color": "=cdgWhiteIfInStateOfInterest"
         },
         {
-          "itemName": "text",
-          "value": ["=textPilotIndicator"],
+          "separatorBefore": false,
+          "itemName": "voiceType",
           "leftClick": "voiceTypeMenu",
+          "mapping": {
+            "0": "",
+            "1": "/r",
+            "2": "/t"
+          },
           "color": [255, 220, 3]
         },
         {
-          "itemName": "ownedByID",
+          "itemName": "sectorIndicator",
           "placeholder": "---"
         },
         {

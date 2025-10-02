@@ -4,7 +4,31 @@
     "incorrectSquawkYellowColor": { "value": "239, 247, 72", "expression": ["$incorrectSquawk"] },
     "incorrectSquawkRedColor": { "value": "239, 20, 72", "expression": ["$incorrectSquawk"] },
     "emptyIfNoAssignedSquawk":  {"value": "", "expression": ["$noAssignedSquawk"] },
+    
+    "isMayday":{
+      "value": "EMRG",
+      "expression": ["$isEmergency"]
+    },
 
+    "isRDOF":{
+      "value": "RDOF",
+      "expression":["$isLostComm"]
+    },
+
+    "emmergencyDescentArrow":{
+      "value": ":i\ue1e0",
+      "expression":["$isEmmergencyDescending"]
+    },
+
+    "emmergencyDescentTruncate":{
+      "value": "0,3",
+      "expression":["$isEmmergencyDescending"]
+    },
+
+    "notEmmergencyDescentTruncate":{
+      "value": "0,0",
+      "expression":["$isNotEmmergencyDescending"]
+    },
     "pdcRequestedTextBlinkColour": {
       "value": "255, 255, 255",
       "expression": [
@@ -155,6 +179,8 @@
       ]
     ],
 "isEmergency": ["==", "squawk", "7700"],
+"isLostComm": ["==", "squawk", "7600"],
+
 
 "isAssumedAndEmergency": [
   "AND",
@@ -292,7 +318,9 @@
     "isSlowClimbing": ["AND", [["<", "verticalSpeed", "1000"], [">", "verticalSpeed", "0"]]],
     "isNotSlowClimbing": [">=", "verticalSpeed", "1000"],
     "isNotSlowDescending": ["<=", "verticalSpeed", "-1000"],
-    
+    "isEmmergencyDescending": ["<=", "verticalSpeed", -4000],
+    "isNotEmmergencyDescending": ["NOT", ["$isEmmergencyDescending"]],
+
     "isVFR": ["contains", "flightRule", "V"],
     "isIFR": ["contains", "flightRule", "I"],
 
