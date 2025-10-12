@@ -1,4 +1,3 @@
-PROFILE
 PROFILE:LFAQ_TWR:30:4
 ATIS2:Albert-Bray Tower - EN/FR
 ATIS3:Check the charts! chartfox.org/LFAQ
@@ -13,15 +12,47 @@ ATIS3:Check the charts! chartfox.org/LFBA
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFBB_CTR:300:6
 ATIS2:Bordeaux Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFBB_H_CTR:300:6
+ATIS2:Bordeaux Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFBB_L_CTR:300:6
+ATIS2:Bordeaux Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFBB_N_CTR:300:6
+ATIS2:Bordeaux Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFBB_P_CTR:300:6
+ATIS2:Bordeaux Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFBB_R_CTR:300:6
+ATIS2:Bordeaux Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFBB_T_CTR:300:6
+ATIS2:Bordeaux Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFBB_X_CTR:300:6
+ATIS2:Bordeaux Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFBB_Z_CTR:300:6
+ATIS2:Bordeaux Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFBB_UN_CTR:300:6
 ATIS2:Bordeaux Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFBB_US_CTR:300:6
 ATIS2:Bordeaux Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFBD_APP:120:5
 ATIS2:Aquitaine Approach - EN/FR
@@ -137,259 +168,259 @@ ATIS3:Check the charts! chartfox.org/LFCR
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_CTR:300:6
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_HE_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_HH_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_HN_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_HR_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_KD_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_KE_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_KF_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_KH_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_KN_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_KR_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_N_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_S_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_UB_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_UE_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_UF_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_UH_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_UN_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_UR_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_XE_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_XH_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_XR_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFEE_YB_CTR:300:6 
 ATIS2:Reims Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_AENB_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_AOML_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_AOUS_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_AO_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_APTE_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_AP_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_ARML_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_AR_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_DGTJ_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_DG_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_DODG_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_DOGS_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_DO_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_FPAE_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_HPKZ_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_HP_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_LMHJ_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_LMH_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_OPKZ_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_ORGY_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_OT_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_PU_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_RPAE_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_RPAW_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_RT_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_TB_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_TE_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_THUZ_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_TH_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_TL_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_TML_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_TM_CTR:300:6 
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_TNTB_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_TN_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_TP_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_UJ_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_UP_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_US_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_UT_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:PAR_UZ_CTR:300:6
 ATIS2:Paris Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFFM_CTR:300:6
 ATIS2:France Military Control - EN/FR
@@ -589,43 +620,43 @@ ATIS3:Book your desired gate here  vatsim.fr/airports/LFML
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMM_CTR:300:6
 ATIS2:Marseille Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMM_E_CTR:300:6
 ATIS2:Marseille Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMM_EU_CTR:300:6
 ATIS2:Marseille Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMM_N_CTR:300:6
 ATIS2:Marseille Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMM_NU_CTR:300:6
 ATIS2:Marseille Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMM_NE_CTR:300:6
 ATIS2:Marseille Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMM_U_CTR:300:6
 ATIS2:Marseille Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMN_APP:120:5
 ATIS2:Nice Approach - EN/FR
-ATIS3 CDM in use, more info vats.im/fr-cdm
+ATIS3 CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMN_DEL:10:2
 ATIS2:Nice Delivery - EN/FR
-ATIS3 CDM in use, more info vats.im/fr-cdm
+ATIS3 CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMN_DEP:120:5
 ATIS2:Nice Departure - EN/FR
-ATIS3 CDM in use, more info vats.im/fr-cdm
+ATIS3 CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMN_E_APP:120:5
 ATIS2:Nice Approach - EN/FR
@@ -633,11 +664,11 @@ ATIS3:Book your desired gate here  vatsim.fr/airports/LFMN
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMN_F_APP:120:5
 ATIS2:Nice Approach - EN/FR
-ATIS3 CDM in use, more info vats.im/fr-cdm
+ATIS3 CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMN_GND:10:3
 ATIS2:Nice Ground - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMN_I_APP:120:5
 ATIS2:Nice Information - EN/FR
@@ -645,7 +676,7 @@ ATIS3:Flight Information Service / Service d'Information de Vol
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMN_TWR:30:4
 ATIS2:Nice Tower - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFMO_TWR:30:4
 ATIS2:Orange Tower - EN/FR
@@ -745,7 +776,7 @@ ATIS3:Check the charts! chartfox.org/LFPB
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_APP:120:5
 ATIS2:De Gaulle Approach - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_A_GND:10:3
 ATIS2:De Gaulle Apron - EN/FR
@@ -753,43 +784,43 @@ ATIS3:Book your desired gate here  vatsim.fr/airports/LFPG
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_DEL:10:2
 ATIS2:De Gaulle Delivery - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_DEP:120:5
 ATIS2:De Gaulle Departure - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_FS_APP:120:5
 ATIS2:De Gaulle Arrival - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_F_APP:120:5
 ATIS2:De Gaulle Arrival - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_GND:10:3
 ATIS2:De Gaulle Ground - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_S_APP:120:5
 ATIS2:De Gaulle Approach - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_S_DEP:120:5
 ATIS2:De Gaulle Departure - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_S_GND:10:3
 ATIS2:De Gaulle Ground - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_S_TWR:30:4
 ATIS2:De Gaulle Tower - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPG_TWR:30:4
 ATIS2:De Gaulle Tower - EN/FR
-ATIS3:CDM in use, more info vats.im/fr-cdm
+ATIS3:CDM in use, more info cdm.vatsim.fr
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFPL_TWR:30:4
 ATIS2:Lognes Tower - EN/FR
@@ -917,39 +948,75 @@ ATIS3:Check the charts! chartfox.org/LFRQ
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFRR_CTR:300:6
 ATIS2:Brest Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFRR_A_CTR:300:6
+ATIS2:Brest Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFRR_AI_CTR:300:6
+ATIS2:Brest Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFRR_AU_CTR:300:6
+ATIS2:Brest Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFRR_E_CTR:300:6
 ATIS2:Brest Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFRR_G_CTR:300:6
+ATIS2:Brest Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFRR_GI_CTR:300:6
+ATIS2:Brest Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFRR_GU_CTR:300:6
+ATIS2:Brest Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFRR_J_CTR:300:6
 ATIS2:Brest Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFRR_N_CTR:300:6
 ATIS2:Brest Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFRR_S_CTR:300:6
 ATIS2:Brest Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFRR_UE_CTR:300:6
 ATIS2:Brest Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFRR_US_CTR:300:6
 ATIS2:Brest Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFRR_V_CTR:300:6
+ATIS2:Brest Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFRR_VK_CTR:300:6
 ATIS2:Brest Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFRR_W_CTR:300:6
 ATIS2:Brest Control - EN/FR
-ATIS3:CPDLC LFXX, first contact via voice
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFRR_WI_CTR:300:6
+ATIS2:Brest Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
+ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
+PROFILE:LFRR_WU_CTR:300:6
+ATIS2:Brest Control - EN/FR
+ATIS3:CPDLC logon [LFXX], First Contact via Voice
 ATIS4:Leave me some feedback! vatsim.fr/fb/$cid
 PROFILE:LFRS_APP:120:5
 ATIS2:Nantes Approach - EN/FR

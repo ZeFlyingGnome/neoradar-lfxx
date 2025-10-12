@@ -22,8 +22,8 @@
 .noatc You are leaving my airspace, no further ATC service available, radar service terminated. Monitor UNICOM on 122.800 and have a good flight, au revoir!
 .noatcb $radioname is closing, no further ATC service available, radar service terminated. Monitor UNICOM on 122.800 and have a good flight, au revoir!
 .noatcc $radioname is closing, for further ATC service contact $radioname($1) $freq($1), au revoir!
-.noatco You are outside of my airspace, continue own discretion and monitor UNICOM on 122.800, au revoir!
-.blt Please use UNICOM 122.800 for blind transmissions. Thank you.
+.noatco You are outside of my airspace, resume own navigation and monitor Advisory frequency 122.800, au revoir!
+.blt Please use Advisory frequency 122.800 for blind transmissions. Thank you.
 ;*** 04 Transponder ***
 .sq Set squawk $squawk.
 .sqf Transpondeur $squawk.
@@ -31,7 +31,9 @@
 .sqc Set squawk CHARLIE. 
 .sqi Squawk IDENT.
 ;*** 05 Clearance ***
-.cdm .msg $aircraft CDM in use, please confirm your TBOT at cdm.vatsim.fr as requested in the ATIS (mandatory for departure)
+.cdm .msg $aircraft CDM in use, please confirm your TOBT at cdm.vatsim.fr as requested in the ATIS (mandatory for departure)
+.cdme .msg $aircraft Your filed EOBT has expired, please confirm your new TOBT at cdm.vatsim.fr as requested in the ATIS (mandatory for departure) 
+.cdml .msg $aircraft CDM in use, please confirm your TOBT (the time you expect to be ready for pushback) at https://cdm.vatsim.fr as requested in the ATIS (mandatory for departure)
 .exp .msg $aircraft Your filed EOBT has expired, please confirm your new TOBT at cdm.vatsim.fr as requested in the ATIS (mandatory for departure)
 .rrc Clearance available, report ready to copy.
 .ico Information $atiscode correct. 
