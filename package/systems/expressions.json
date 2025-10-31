@@ -5,6 +5,11 @@
     "incorrectSquawkRedColor": { "value": "239, 20, 72", "expression": ["$incorrectSquawk"] },
     "emptyIfNoAssignedSquawk":  {"value": "", "expression": ["$noAssignedSquawk"] },
     
+    "focusedAircraft": {
+      "value": "80, 80, 80",
+      "expression": ["$isFocusedAircraft"]
+    },
+
     "isMayday":{
       "value": "EMRG",
       "expression": ["$isEmergency"]
@@ -178,6 +183,7 @@
         ["==", "isDeparture", "0"]
       ]
     ],
+"isFocusedAircraft": ["==", "focusedAircraftCallsign", "&callsign"],
 "isEmergency": ["==", "squawk", "7700"],
 "isLostComm": ["==", "squawk", "7600"],
 

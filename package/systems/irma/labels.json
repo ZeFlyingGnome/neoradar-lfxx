@@ -134,6 +134,7 @@
           "fontWeight": "bold",
           "leftClick": "callsignMenu",
           "prefix": ["=assumedPrefix"],
+          "suffix": ["=assumedSuffix"],
           "fontSize": 12
         },
         {
@@ -170,6 +171,7 @@
           "fontSize": 12,
           "leftClick": "callsignMenu",
           "prefix": ["=assumedPrefix"],
+          "suffix": ["=assumedSuffix"],
           "color": "=incorrectSquawkRedColor"
         },
         {
@@ -227,7 +229,8 @@
           "fontWeight": "bold",
           "fontSize": 12,
           "leftClick": "callsignMenu",
-          "prefix": ["=assumedPrefix"]
+          "prefix": ["=assumedPrefix"],
+          "suffix": ["=assumedSuffix"]
         },
         {
           "separatorBefore": true,

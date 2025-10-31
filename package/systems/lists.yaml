@@ -26,6 +26,24 @@
         mapping:
           "0": "---"
 
+- name: FREQUENCIES
+  type: frequency
+  style:
+    showHeaders: false
+  columns:
+    - name: CALLSIGN
+      width: 90
+      tagItem:
+        itemName: frequencyCallsign
+    - name: FREQUENCY
+      width: 60
+      tagItem:
+        itemName: frequencyMHz
+    - name: LASTCALLSIGN
+      width: 80
+      tagItem:
+        itemName: frequencyLastReceivedCallsigns
+
 # METAR list with tagItem approach instead of metarField
 - name: WEATHER
   type: metar
@@ -56,6 +74,16 @@
 - name: DEPARTURE LIST
   filterExpressions:
     ["AND", [["==", "isMyDeparture", "1"], ["==", "onGround", "1"]]]
+  style:
+    background:
+      bodyOpacity: 0
+      headerOpacity: 0
+      bodyBlur: true
+      headerBlur: true
+      rowColor: ["=focusedAircraft"]
+    headerTextSize: 10
+    headerOnlyBorder: true
+    bodyTextSize: 10
   columns:
     - name: c/s
       width: 80
@@ -193,6 +221,16 @@
 - name: SECTOR LIST
   filterExpressions:
     ["OR", ["$isAssumed", "$isInboundTransfer", "$isOutboundTransfer"]]
+  style:
+    background:
+      bodyOpacity: 0
+      headerOpacity: 0
+      bodyBlur: true
+      headerBlur: true
+      rowColor: ["=focusedAircraft"]
+    headerTextSize: 10
+    headerOnlyBorder: true
+    bodyTextSize: 10
   columns:
     - name: c/s
       width: 80
@@ -291,6 +329,9 @@
       bodyBlur: true
       headerBlur: true
       rowColor: ["=focusedAircraft"]
+    headerTextSize: 10
+    headerOnlyBorder: true
+    bodyTextSize: 10
   columns:
     - name: c/s
       width: 80
